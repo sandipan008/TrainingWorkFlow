@@ -1,0 +1,1096 @@
+[2023-07-29 19:00:03,180] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-07-29 19:00:03,338] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 20620 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 19:00:03,357] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 19:00:03,597] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\tausif.ahmad\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-07-29 19:00:03,601] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-07-29 19:00:03,603] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-07-29 19:00:06,123] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 19:00:06,508] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 358 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 19:00:09,277] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 19:00:09,322] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:00:09,325] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 19:00:09,327] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 19:00:11,326] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 19:00:11,327] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 7722 ms] 
+[2023-07-29 19:00:11,423] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 19:00:11,477] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 19:00:12,465] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 19:00:12,671] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-07-29 19:00:13,150] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-07-29 19:00:13,558] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-07-29 19:00:17,611] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-07-29 19:00:17,680] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 19:00:25,079] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 19:00:25,114] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:00:26,008] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 19:00:26,465] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 19:00:26,484] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 19:00:26,492] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 19:00:26,493] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 19:00:26,493] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 19:00:26,511] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 19:00:26,546] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 19:00:27,491] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 19:00:27,833] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 19:00:27,834] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 19:00:28,449] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 19:00:28,679] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@5d8c20c3, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@58b95a81)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@76ac0cd5, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 19:02:15,167] - [com.zaxxer.hikari.pool.HikariPool] [run] -> (WARN) [HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m4s510ms141µs800ns).] 
+[2023-07-29 19:02:15,910] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-07-29 19:02:15,924] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-07-29 19:02:23,038] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-07-29 19:02:24,666] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=1, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}qaaod5sQzlNBX/DtkFXV2Wtk8JFgT7Sj5fESaYk+nEvrAaXdTQt9ciqlrYrvTsSbcsJ3q7r9e7fzAGkK8ePNCQ==, salt=jinu/MNTKMO3yXaPnYXLOA==, lockExpirationTime=null, attempts=0]] 
+[2023-07-29 19:02:25,494] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-07-29 19:02:29,123] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-07-29 19:02:30,096] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@349c02de] 
+[2023-07-29 19:02:30,098] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@6b237665] 
+[2023-07-29 19:02:31,039] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-07-29 19:02:31,131] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:02:31,228] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-07-29 19:02:31,306] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/C:/Users/tausif.ahmad/OneDrive%20-%20HCL%20Technologies%20Ltd/Desktop/Tortoise_Repo/TrainingWorkflow/target/classes/META-INF/processes.xml] 
+[2023-07-29 19:02:31,527] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+        userformPOC.form
+] 
+[2023-07-29 19:02:34,469] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [6c72cd0b-2d15-11ee-a7d0-085bd6a1e528]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:6ca798af-2d15-11ee-a7d0-085bd6a1e528]
+Deployment does not provide any case definitions.] 
+[2023-07-29 19:02:34,912] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-07-29 19:02:34,920] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 159.629 seconds (JVM running for 169.43)] 
+[2023-07-29 19:02:34,927] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-07-29 19:02:34,955] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-07-29 19:03:02,142] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 19:03:08,200] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 19:03:09,642] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 19:03:09,898] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 19:03:25,267] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 19:03:26,581] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[]] 
+[2023-07-29 19:03:26,582] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 19:03:26,583] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [Start creation of KieBase: defaultKieBase] 
+[2023-07-29 19:03:26,877] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [End creation of KieBase: defaultKieBase] 
+[2023-07-29 19:03:27,266] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Modules form database is :- Modules(moduleId=1, moduleName=NEW_HIRE, Exam=0, groupId=null, duration=5, POC=0)] 
+[2023-07-29 19:03:27,597] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Caught the Drools Exception] 
+[2023-07-29 19:03:27,606] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [nextTask] -> (INFO) [Unable to move to next Taskcom.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.DroolsEngineException: Unable to perform the Drools Task,Because of drl file] 
+[2023-07-29 19:03:27,606] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=1, userId=52087286, task=NEW_HIRE, Status=Processing, duedate=2023-07-25, approver=null)] 
+[2023-07-29 19:03:27,608] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [An Exception from Final Service Task Due to ] 
+[2023-07-29 19:03:27,869] - [org.camunda.bpm.engine.bpmn.behavior] [logInfo] -> (INFO) [ENGINE-02001 Execution with id 'Activity_1nfawup' throws an error event with errorCode 'Camunda Exception', but no catching boundary event was defined. Execution is ended (none end event semantics).] 
+[2023-07-29 19:08:01,796] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 19:08:03,466] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 19:08:03,610] - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [onApplicationEvent] -> (INFO) [Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)] 
+[2023-07-29 19:08:04,596] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 19:08:04,851] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 19:08:05,465] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-07-29 19:08:05,512] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:08:05,512] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-07-29 19:08:05,516] - [org.apache.catalina.core.StandardWrapper] [log] -> (INFO) [Waiting for [1] instance(s) to be deallocated for Servlet [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig]] 
+[2023-07-29 19:08:06,551] - [org.apache.catalina.core.StandardWrapper] [log] -> (INFO) [Waiting for [1] instance(s) to be deallocated for Servlet [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig]] 
+[2023-07-29 19:08:07,597] - [org.apache.catalina.core.StandardWrapper] [log] -> (INFO) [Waiting for [1] instance(s) to be deallocated for Servlet [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig]] 
+[2023-07-29 19:08:07,721] - [org.apache.catalina.loader.WebappClassLoaderBase] [log] -> (WARN) [The web application [ROOT] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@17.0.4.1/sun.nio.ch.Net.poll(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:181)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:190)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:314)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+ java.base@17.0.4.1/java.net.Socket$SocketInputStream.read(Socket.java:966)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064)
+ java.base@17.0.4.1/java.io.FilterInputStream.read(FilterInputStream.java:132)
+ app//com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+ app//com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+ app//com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+ app//com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+ app//com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+ app//com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+ app//com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+ app//com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+ app//com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+ app//com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+ app//com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+ app//com.mysql.cj.protocol.a.NativeProtocol.sendQueryPacket(NativeProtocol.java:1051)
+ app//com.mysql.cj.NativeSession.execSQL(NativeSession.java:665)
+ app//com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:893)
+ app//com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+ app//com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:795)
+ app//com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:418)
+ app//com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:795)
+ app//com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:127)
+ app//com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+ app//org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+ app//org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+ app//org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+ app//org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+ app//org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:252)
+ app//org.camunda.bpm.engine.impl.db.sql.DbSqlSession.flushBatchOperations(DbSqlSession.java:443)
+ app//org.camunda.bpm.engine.impl.db.sql.BatchDbSqlSession.executeDbOperations(BatchDbSqlSession.java:73)
+ app//org.camunda.bpm.engine.impl.db.entitymanager.DbEntityManager.flushDbOperations(DbEntityManager.java:341)
+ app//org.camunda.bpm.engine.impl.db.entitymanager.DbEntityManager.flushDbOperationManager(DbEntityManager.java:323)
+ app//org.camunda.bpm.engine.impl.db.entitymanager.DbEntityManager.flush(DbEntityManager.java:295)
+ app//org.camunda.bpm.engine.impl.interceptor.CommandContext.flushSessions(CommandContext.java:272)
+ app//org.camunda.bpm.engine.impl.interceptor.CommandContext.close(CommandContext.java:188)
+ app//org.camunda.bpm.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:119)
+ app//org.camunda.bpm.engine.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:71)
+ app//org.camunda.bpm.engine.spring.SpringTransactionInterceptor$$Lambda$1091/0x0000000800c03228.doInTransaction(Unknown Source)
+ app//org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+ app//org.camunda.bpm.engine.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:71)
+ app//org.camunda.bpm.engine.impl.interceptor.ProcessApplicationContextInterceptor.execute(ProcessApplicationContextInterceptor.java:70)
+ app//org.camunda.bpm.engine.impl.interceptor.CommandCounterInterceptor.execute(CommandCounterInterceptor.java:35)
+ app//org.camunda.bpm.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:33)
+ app//org.camunda.bpm.engine.impl.interceptor.ExceptionCodeInterceptor.execute(ExceptionCodeInterceptor.java:55)
+ app//org.camunda.bpm.engine.impl.ProcessInstantiationBuilderImpl.executeWithVariablesInReturn(ProcessInstantiationBuilderImpl.java:166)
+ app//org.camunda.bpm.engine.rest.sub.repository.impl.ProcessDefinitionResourceImpl.startProcessInstanceAtActivities(ProcessDefinitionResourceImpl.java:179)
+ app//org.camunda.bpm.engine.rest.sub.repository.impl.ProcessDefinitionResourceImpl.startProcessInstance(ProcessDefinitionResourceImpl.java:129)
+ java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+ java.base@17.0.4.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@17.0.4.1/java.lang.reflect.Method.invoke(Method.java:568)
+ app//org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+ app//org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$$Lambda$1811/0x0000000801046558.invoke(Unknown Source)
+ app//org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:124)
+ app//org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:167)
+ app//org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$TypeOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:219)
+ app//org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:79)
+ app//org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:475)
+ app//org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:397)
+ app//org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+ app//org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:255)
+ app//org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+ app//org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+ app//org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+ app//org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+ app//org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+ app//org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+ app//org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:234)
+ app//org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+ app//org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+ app//org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+ app//org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:366)
+ app//org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:319)
+ app//org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.camunda.bpm.engine.rest.filter.CacheControlFilter.doFilter(CacheControlFilter.java:45)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.camunda.bpm.engine.rest.filter.EmptyBodyFilter.doFilter(EmptyBodyFilter.java:99)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+ app//org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ app//org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ app//org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+ app//org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ app//org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ app//org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+ app//org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+ app//org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ app//org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+ app//org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+ app//org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ app//org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ app//org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ app//org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)]] 
+[2023-07-29 19:08:07,723] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:08:08,175] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [fetchTask] -> (INFO) [Exception occured, Unable to perform Scheduler Task com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.CamundaException: Camunda Exception, Unable to start the process] 
+[2023-07-29 19:08:12,726] - [org.apache.tomcat.util.net.NioEndpoint] [log] -> (WARN) [The executor associated with thread pool [http-nio-9002] has not fully shutdown. Some application threads may still be running.] 
+[2023-07-29 19:08:12,728] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:08:17,446] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-07-29 19:08:17,446] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-07-29 19:08:18,118] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-07-29 19:08:18,119] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:08:18,127] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-07-29 19:08:20,366] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-07-29 19:08:20,712] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 20620 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 19:08:20,714] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 19:08:21,254] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 19:08:21,432] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 177 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 19:08:21,862] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 19:08:21,863] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:08:21,864] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 19:08:21,864] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 19:08:22,119] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 19:08:22,119] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 1399 ms] 
+[2023-07-29 19:08:22,135] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 19:08:22,136] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 19:08:22,346] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 19:08:22,364] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-2 - Starting...] 
+[2023-07-29 19:08:46,621] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-07-29 19:08:46,710] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 11956 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 19:08:46,720] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 19:08:46,870] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\tausif.ahmad\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-07-29 19:08:46,871] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-07-29 19:08:46,872] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-07-29 19:08:49,079] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 19:08:49,337] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 240 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 19:08:51,119] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 19:08:51,143] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:08:51,144] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 19:08:51,146] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 19:08:52,643] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 19:08:52,644] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 5769 ms] 
+[2023-07-29 19:08:52,690] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 19:08:52,734] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 19:08:53,430] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 19:08:53,561] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-07-29 19:08:53,975] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-07-29 19:08:54,230] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-07-29 19:08:57,638] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-07-29 19:08:57,682] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 19:09:03,635] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 19:09:03,656] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:09:04,030] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 19:09:04,274] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 19:09:04,284] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 19:09:04,286] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 19:09:04,287] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 19:09:04,287] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 19:09:04,291] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 19:09:04,302] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 19:09:04,746] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 19:09:04,895] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 19:09:04,895] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 19:09:05,364] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 19:09:05,496] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@754d4646, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@62a13b67)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@2477ac4e, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 19:09:14,120] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-07-29 19:09:14,128] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-07-29 19:09:21,387] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-07-29 19:09:23,080] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=1, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}qaaod5sQzlNBX/DtkFXV2Wtk8JFgT7Sj5fESaYk+nEvrAaXdTQt9ciqlrYrvTsSbcsJ3q7r9e7fzAGkK8ePNCQ==, salt=jinu/MNTKMO3yXaPnYXLOA==, lockExpirationTime=null, attempts=0]] 
+[2023-07-29 19:09:23,583] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-07-29 19:09:25,652] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-07-29 19:09:26,183] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@60a21c7a] 
+[2023-07-29 19:09:26,299] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@611edb34] 
+[2023-07-29 19:09:26,746] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-07-29 19:09:26,799] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:09:26,881] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-07-29 19:09:26,927] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/C:/Users/tausif.ahmad/OneDrive%20-%20HCL%20Technologies%20Ltd/Desktop/Tortoise_Repo/TrainingWorkflow/target/classes/META-INF/processes.xml] 
+[2023-07-29 19:09:27,067] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+        userformPOC.form
+] 
+[2023-07-29 19:09:29,791] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [6c72cd0b-2d15-11ee-a7d0-085bd6a1e528]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:6ca798af-2d15-11ee-a7d0-085bd6a1e528]
+Deployment does not provide any case definitions.] 
+[2023-07-29 19:09:30,266] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-07-29 19:09:30,274] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 44.244 seconds (JVM running for 49.517)] 
+[2023-07-29 19:09:30,279] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-07-29 19:09:30,283] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-07-29 19:09:34,644] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 19:09:36,321] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[]] 
+[2023-07-29 19:09:36,322] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 19:09:36,322] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [Start creation of KieBase: defaultKieBase] 
+[2023-07-29 19:09:36,481] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [End creation of KieBase: defaultKieBase] 
+[2023-07-29 19:09:36,806] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Modules form database is :- Modules(moduleId=1, moduleName=NEW_HIRE, Exam=0, groupId=null, duration=5, POC=0)] 
+[2023-07-29 19:09:37,041] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Caught the Drools Exception] 
+[2023-07-29 19:09:37,046] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [nextTask] -> (INFO) [Unable to move to next Taskcom.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.DroolsEngineException: Unable to perform the Drools Task,Because of drl file] 
+[2023-07-29 19:09:37,047] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=1, userId=52087286, task=NEW_HIRE, Status=Processing, duedate=2023-07-25, approver=null)] 
+[2023-07-29 19:09:37,048] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [An Exception from Final Service Task Due to ] 
+[2023-07-29 19:09:37,307] - [org.camunda.bpm.engine.bpmn.behavior] [logInfo] -> (INFO) [ENGINE-02001 Execution with id 'Activity_1nfawup' throws an error event with errorCode 'Camunda Exception', but no catching boundary event was defined. Execution is ended (none end event semantics).] 
+[2023-07-29 19:11:30,139] - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [onApplicationEvent] -> (INFO) [Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)] 
+[2023-07-29 19:11:32,546] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-07-29 19:11:32,591] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:11:32,592] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-07-29 19:11:32,601] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:11:32,604] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:11:37,301] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-07-29 19:11:37,302] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-07-29 19:11:38,000] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-07-29 19:11:38,001] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:11:38,008] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-07-29 19:11:40,279] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-07-29 19:11:40,520] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 11956 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 19:11:40,522] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 19:11:41,074] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 19:11:41,195] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 120 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 19:11:41,431] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 19:11:41,433] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:11:41,433] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 19:11:41,434] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 19:11:41,584] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 19:11:41,585] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 1056 ms] 
+[2023-07-29 19:11:41,593] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 19:11:41,594] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 19:11:41,728] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 19:11:41,741] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-2 - Starting...] 
+[2023-07-29 19:11:44,480] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-2 - Start completed.] 
+[2023-07-29 19:11:44,481] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 19:11:48,392] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 19:11:48,393] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:11:48,440] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 19:11:48,508] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 19:11:48,508] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 19:11:48,509] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 19:11:48,509] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 19:11:48,509] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 19:11:48,509] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 19:11:48,511] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 19:11:48,512] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 19:11:48,525] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 19:11:48,526] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 19:11:48,530] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 19:11:48,531] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@1bda0f9, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@40141658)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@371b67ff, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 19:12:14,619] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-07-29 19:12:14,711] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 15984 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 19:12:14,722] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 19:12:14,845] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\tausif.ahmad\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-07-29 19:12:14,847] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-07-29 19:12:14,847] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-07-29 19:12:17,009] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 19:12:17,270] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 243 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 19:12:19,384] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 19:12:19,410] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:12:19,412] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 19:12:19,413] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 19:12:21,123] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 19:12:21,124] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 6274 ms] 
+[2023-07-29 19:12:21,189] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 19:12:21,241] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 19:12:22,056] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 19:12:22,190] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-07-29 19:12:22,570] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-07-29 19:12:22,839] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-07-29 19:12:26,246] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-07-29 19:12:26,276] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 19:12:31,851] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 19:12:31,867] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:12:32,178] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 19:12:32,341] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 19:12:32,349] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 19:12:32,351] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 19:12:32,351] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 19:12:32,352] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 19:12:32,355] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 19:12:32,368] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 19:12:32,674] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 19:12:32,779] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 19:12:32,780] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 19:12:32,986] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 19:12:33,082] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@622238f0, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@3128365f)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@1a04f25f, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 19:12:39,911] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-07-29 19:12:39,916] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-07-29 19:12:47,126] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-07-29 19:12:48,777] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=1, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}qaaod5sQzlNBX/DtkFXV2Wtk8JFgT7Sj5fESaYk+nEvrAaXdTQt9ciqlrYrvTsSbcsJ3q7r9e7fzAGkK8ePNCQ==, salt=jinu/MNTKMO3yXaPnYXLOA==, lockExpirationTime=null, attempts=0]] 
+[2023-07-29 19:12:49,112] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-07-29 19:12:50,457] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-07-29 19:12:50,930] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@48a425c5] 
+[2023-07-29 19:12:51,051] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@569e02cb] 
+[2023-07-29 19:12:51,588] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-07-29 19:12:51,654] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:12:51,731] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-07-29 19:12:51,788] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/C:/Users/tausif.ahmad/OneDrive%20-%20HCL%20Technologies%20Ltd/Desktop/Tortoise_Repo/TrainingWorkflow/target/classes/META-INF/processes.xml] 
+[2023-07-29 19:12:51,949] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+        userformPOC.form
+] 
+[2023-07-29 19:12:54,649] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [6c72cd0b-2d15-11ee-a7d0-085bd6a1e528]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:6ca798af-2d15-11ee-a7d0-085bd6a1e528]
+Deployment does not provide any case definitions.] 
+[2023-07-29 19:12:55,118] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-07-29 19:12:55,126] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 41.249 seconds (JVM running for 49.592)] 
+[2023-07-29 19:12:55,135] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-07-29 19:12:55,139] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-07-29 19:13:02,111] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 19:13:08,011] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 19:13:09,407] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 19:13:09,673] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 19:13:25,891] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 19:13:27,284] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[]] 
+[2023-07-29 19:13:27,285] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 19:13:27,286] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [Start creation of KieBase: defaultKieBase] 
+[2023-07-29 19:13:27,464] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [End creation of KieBase: defaultKieBase] 
+[2023-07-29 19:13:27,800] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Modules form database is :- Modules(moduleId=1, moduleName=NEW_HIRE, Exam=0, groupId=null, duration=5, POC=0)] 
+[2023-07-29 19:13:28,038] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Caught the Drools Exception] 
+[2023-07-29 19:13:28,042] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [nextTask] -> (INFO) [Unable to move to next Taskcom.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.DroolsEngineException: Unable to perform the Drools Task,Because of drl file] 
+[2023-07-29 19:13:28,043] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=1, userId=52087286, task=NEW_HIRE, Status=Processing, duedate=2023-07-25, approver=null)] 
+[2023-07-29 19:13:28,044] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [An Exception from Final Service Task Due to ] 
+[2023-07-29 19:13:28,300] - [org.camunda.bpm.engine.bpmn.behavior] [logInfo] -> (INFO) [ENGINE-02001 Execution with id 'Activity_1nfawup' throws an error event with errorCode 'Camunda Exception', but no catching boundary event was defined. Execution is ended (none end event semantics).] 
+[2023-07-29 19:17:19,882] - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [onApplicationEvent] -> (INFO) [Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)] 
+[2023-07-29 19:17:21,800] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-07-29 19:17:21,852] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:17:21,853] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-07-29 19:17:21,868] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:17:21,871] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:17:26,553] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-07-29 19:17:26,554] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-07-29 19:17:27,247] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-07-29 19:17:27,248] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:17:27,256] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown initiated...] 
+[2023-07-29 19:17:29,528] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-1 - Shutdown completed.] 
+[2023-07-29 19:17:29,807] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 15984 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 19:17:29,809] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 19:17:30,341] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 19:17:30,506] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 164 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 19:17:30,778] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 19:17:30,779] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:17:30,780] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 19:17:30,780] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 19:17:30,943] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 19:17:30,944] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 1128 ms] 
+[2023-07-29 19:17:30,951] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 19:17:30,952] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 19:17:31,093] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 19:17:31,107] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-2 - Starting...] 
+[2023-07-29 19:17:33,839] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-2 - Start completed.] 
+[2023-07-29 19:17:33,840] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 19:17:37,709] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 19:17:37,709] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:17:37,753] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 19:17:37,810] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 19:17:37,810] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 19:17:37,811] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 19:17:37,811] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 19:17:37,811] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 19:17:37,811] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 19:17:37,812] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 19:17:37,813] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 19:17:37,823] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 19:17:37,824] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 19:17:37,828] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 19:17:37,828] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@712cb578, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@51fc0cee)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@3ada9d3c, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 19:17:50,550] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-07-29 19:17:52,122] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=1, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}qaaod5sQzlNBX/DtkFXV2Wtk8JFgT7Sj5fESaYk+nEvrAaXdTQt9ciqlrYrvTsSbcsJ3q7r9e7fzAGkK8ePNCQ==, salt=jinu/MNTKMO3yXaPnYXLOA==, lockExpirationTime=null, attempts=0]] 
+[2023-07-29 19:17:52,145] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-07-29 19:17:52,705] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-07-29 19:17:52,886] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@24e575b7] 
+[2023-07-29 19:17:52,887] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@36613928] 
+[2023-07-29 19:17:52,971] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-07-29 19:17:53,002] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:17:53,026] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-07-29 19:17:53,038] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/C:/Users/tausif.ahmad/OneDrive%20-%20HCL%20Technologies%20Ltd/Desktop/Tortoise_Repo/TrainingWorkflow/target/classes/META-INF/processes.xml] 
+[2023-07-29 19:17:53,141] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+        userformPOC.form
+] 
+[2023-07-29 19:17:55,177] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [6c72cd0b-2d15-11ee-a7d0-085bd6a1e528]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:6ca798af-2d15-11ee-a7d0-085bd6a1e528]
+Deployment does not provide any case definitions.] 
+[2023-07-29 19:17:55,625] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-07-29 19:17:55,628] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 25.959 seconds (JVM running for 350.093)] 
+[2023-07-29 19:17:55,633] - [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [onApplicationEvent] -> (INFO) [Condition evaluation unchanged] 
+[2023-07-29 19:17:55,634] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-07-29 19:17:55,635] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-07-29 19:18:01,839] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 19:18:05,148] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 19:18:06,281] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 19:18:06,515] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 19:18:22,271] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 19:18:23,621] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[]] 
+[2023-07-29 19:18:23,622] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 19:18:23,623] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [Start creation of KieBase: defaultKieBase] 
+[2023-07-29 19:18:23,638] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [End creation of KieBase: defaultKieBase] 
+[2023-07-29 19:18:24,081] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Modules form database is :- Modules(moduleId=1, moduleName=NEW_HIRE, Exam=0, groupId=null, duration=5, POC=0)task name :- null Value of M1 :- null] 
+[2023-07-29 19:18:24,400] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Caught the Drools Exception] 
+[2023-07-29 19:18:24,409] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [nextTask] -> (INFO) [Unable to move to next Taskcom.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.DroolsEngineException: Unable to perform the Drools Task,Because of drl file] 
+[2023-07-29 19:18:24,410] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=1, userId=52087286, task=NEW_HIRE, Status=Processing, duedate=2023-07-25, approver=null)] 
+[2023-07-29 19:18:24,411] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [An Exception from Final Service Task Due to ] 
+[2023-07-29 19:18:24,631] - [org.camunda.bpm.engine.bpmn.behavior] [logInfo] -> (INFO) [ENGINE-02001 Execution with id 'Activity_1nfawup' throws an error event with errorCode 'Camunda Exception', but no catching boundary event was defined. Execution is ended (none end event semantics).] 
+[2023-07-29 19:25:54,152] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@34fdf789 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:54,369] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3170a8fa (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:54,598] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@416acc69 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:54,820] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a702a72 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:55,048] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@201f41d7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:55,271] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@141c1a56 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:55,502] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3828538 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:55,737] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@18ba1c80 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:55,966] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@42f1f7b9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:25:56,187] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@364b9b1b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:15,920] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@311e9f0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:16,149] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@59e3d5c0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:16,373] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4586dffe (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:16,605] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4954e0d7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:16,852] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1816df80 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:17,083] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@422a16a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:17,311] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6c6e2bb2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:17,534] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@51ebf254 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:17,760] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4dac12fd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:17,989] - [com.zaxxer.hikari.pool.PoolBase] [isConnectionAlive] -> (WARN) [HikariPool-2 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5f21c2b6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.] 
+[2023-07-29 19:56:26,082] - [com.zaxxer.hikari.pool.HikariPool] [run] -> (WARN) [HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=18m52s122ms493µs400ns).] 
+[2023-07-29 19:59:45,237] - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [onApplicationEvent] -> (INFO) [Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)] 
+[2023-07-29 19:59:47,038] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-07-29 19:59:47,075] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:59:47,075] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-07-29 19:59:47,081] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:59:47,084] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:59:51,525] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-07-29 19:59:51,525] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-07-29 19:59:52,198] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-07-29 19:59:52,199] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 19:59:52,200] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-2 - Shutdown initiated...] 
+[2023-07-29 19:59:54,470] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-2 - Shutdown completed.] 
+[2023-07-29 19:59:54,793] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 15984 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 19:59:54,795] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 19:59:55,495] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 19:59:55,619] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 123 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 19:59:55,858] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 19:59:55,859] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 19:59:55,860] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 19:59:55,860] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 19:59:56,041] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 19:59:56,042] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 1237 ms] 
+[2023-07-29 19:59:56,050] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 19:59:56,051] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 19:59:56,192] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 19:59:56,206] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-3 - Starting...] 
+[2023-07-29 19:59:59,032] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-3 - Start completed.] 
+[2023-07-29 19:59:59,033] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 20:00:03,177] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 20:00:03,178] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 20:00:03,231] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 20:00:03,306] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 20:00:03,307] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 20:00:03,307] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 20:00:03,308] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 20:00:03,308] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 20:00:03,308] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 20:00:03,310] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 20:00:03,311] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 20:00:03,324] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 20:00:03,324] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 20:00:03,329] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 20:00:03,329] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@4b2e3818, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@65d34d3e)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@1c220020, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 20:00:16,493] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-07-29 20:00:18,105] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=1, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}qaaod5sQzlNBX/DtkFXV2Wtk8JFgT7Sj5fESaYk+nEvrAaXdTQt9ciqlrYrvTsSbcsJ3q7r9e7fzAGkK8ePNCQ==, salt=jinu/MNTKMO3yXaPnYXLOA==, lockExpirationTime=null, attempts=0]] 
+[2023-07-29 20:00:18,129] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-07-29 20:00:18,567] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-07-29 20:00:18,692] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@3fa1a27] 
+[2023-07-29 20:00:18,699] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@49784bc5] 
+[2023-07-29 20:00:18,780] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-07-29 20:00:18,815] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:00:18,840] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-07-29 20:00:18,855] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/C:/Users/tausif.ahmad/OneDrive%20-%20HCL%20Technologies%20Ltd/Desktop/Tortoise_Repo/TrainingWorkflow/target/classes/META-INF/processes.xml] 
+[2023-07-29 20:00:18,969] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+        userformPOC.form
+] 
+[2023-07-29 20:00:21,076] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [6c72cd0b-2d15-11ee-a7d0-085bd6a1e528]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:6ca798af-2d15-11ee-a7d0-085bd6a1e528]
+Deployment does not provide any case definitions.] 
+[2023-07-29 20:00:21,541] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-07-29 20:00:21,543] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 26.897 seconds (JVM running for 2896.048)] 
+[2023-07-29 20:00:21,548] - [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [onApplicationEvent] -> (INFO) [Condition evaluation unchanged] 
+[2023-07-29 20:00:21,549] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-07-29 20:00:21,551] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-07-29 20:01:01,906] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 20:01:05,364] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 20:01:06,474] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 20:01:06,706] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 20:01:21,869] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 20:01:23,027] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [ProjectAssignation is false] 
+[2023-07-29 20:01:23,262] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[]] 
+[2023-07-29 20:01:23,263] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 20:01:23,264] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [Start creation of KieBase: defaultKieBase] 
+[2023-07-29 20:01:23,275] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [End creation of KieBase: defaultKieBase] 
+[2023-07-29 20:01:23,740] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Modules form database is :- Modules(moduleId=1, moduleName=NEW_HIRE, Exam=0, groupId=null, duration=5, POC=0)task name :- null Value of M1 :- null] 
+[2023-07-29 20:01:23,978] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Caught the Drools Exception] 
+[2023-07-29 20:01:23,981] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [nextTask] -> (INFO) [Unable to move to next Taskcom.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.DroolsEngineException: Unable to perform the Drools Task,Because of drl file] 
+[2023-07-29 20:01:23,981] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=1, userId=52087286, task=NEW_HIRE, Status=Processing, duedate=2023-07-25, approver=null)] 
+[2023-07-29 20:01:23,982] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [An Exception from Final Service Task Due to ] 
+[2023-07-29 20:01:24,213] - [org.camunda.bpm.engine.bpmn.behavior] [logInfo] -> (INFO) [ENGINE-02001 Execution with id 'Activity_1nfawup' throws an error event with errorCode 'Camunda Exception', but no catching boundary event was defined. Execution is ended (none end event semantics).] 
+[2023-07-29 20:11:01,855] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 20:11:03,599] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 20:11:04,726] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 20:11:04,952] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 20:11:20,376] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 20:11:21,544] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [ProjectAssignation is false] 
+[2023-07-29 20:11:21,776] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[workflow(Id=7, Name=NEW_HIRE, category=4, taskId=1), workflow(Id=8, Name=AWS, category=4, taskId=2)]] 
+[2023-07-29 20:11:21,777] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [M Value NEW_HIRE Task Value NEW_HIRE] 
+[2023-07-29 20:11:21,777] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 20:11:22,244] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Modules form database is :- Modules(moduleId=1, moduleName=NEW_HIRE, Exam=0, groupId=null, duration=5, POC=0)task name :- AWS Value of M1 :- Modules(moduleId=5, moduleName=AWS, Exam=1, groupId=2, duration=5, POC=0)] 
+[2023-07-29 20:11:22,481] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [New value :-Task(id=0, taskId=2, userId=52087286, task=AWS, Status=InProgress, duedate=2023-07-30, approver=null)] 
+[2023-07-29 20:11:22,720] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [setComplete] -> (INFO) [Completed] 
+[2023-07-29 20:11:22,721] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [setComplete] -> (INFO) [Approver Name null] 
+[2023-07-29 20:11:22,722] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [save] -> (INFO) [InProgress] 
+[2023-07-29 20:11:22,971] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=1, userId=52087286, task=NEW_HIRE, Status=Completed, duedate=2023-07-25, approver=null)] 
+[2023-07-29 20:11:22,972] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Next task obj from ServiceFinalTask :- Task(id=5, taskId=2, userId=52087286, task=AWS, Status=InProgress, duedate=2023-07-30, approver=null)] 
+[2023-07-29 20:11:22,972] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForNextTask] -> (INFO) [Inside the mailSendingForNextTask() method now........] 
+[2023-07-29 20:11:23,251] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForNextTask] -> (INFO) [Exception encountered while sending next task mail..] 
+[2023-07-29 20:12:54,672] - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [onApplicationEvent] -> (INFO) [Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)] 
+[2023-07-29 20:12:56,549] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-07-29 20:12:56,588] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:12:56,588] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-07-29 20:12:56,594] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:12:56,596] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:13:01,250] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-07-29 20:13:01,251] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-07-29 20:13:01,944] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-07-29 20:13:01,945] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 20:13:01,946] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-3 - Shutdown initiated...] 
+[2023-07-29 20:13:04,202] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-3 - Shutdown completed.] 
+[2023-07-29 20:13:04,461] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 15984 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 20:13:04,463] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 20:13:04,973] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 20:13:05,094] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 121 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 20:13:05,349] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 20:13:05,350] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:13:05,351] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 20:13:05,351] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 20:13:05,521] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 20:13:05,521] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 1050 ms] 
+[2023-07-29 20:13:05,531] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 20:13:05,532] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 20:13:05,693] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 20:13:05,708] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-4 - Starting...] 
+[2023-07-29 20:13:08,322] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-4 - Start completed.] 
+[2023-07-29 20:13:08,323] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 20:13:11,982] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 20:13:11,983] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 20:13:12,059] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 20:13:12,155] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 20:13:12,156] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 20:13:12,156] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 20:13:12,156] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 20:13:12,157] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 20:13:12,157] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 20:13:12,158] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 20:13:12,159] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 20:13:12,171] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 20:13:12,172] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 20:13:12,176] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 20:13:12,177] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@6e95afc4, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@4743adde)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@fc18532, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 20:13:25,581] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-07-29 20:13:27,052] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=1, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}qaaod5sQzlNBX/DtkFXV2Wtk8JFgT7Sj5fESaYk+nEvrAaXdTQt9ciqlrYrvTsSbcsJ3q7r9e7fzAGkK8ePNCQ==, salt=jinu/MNTKMO3yXaPnYXLOA==, lockExpirationTime=null, attempts=0]] 
+[2023-07-29 20:13:27,082] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-07-29 20:13:27,535] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-07-29 20:13:27,711] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@305f88de] 
+[2023-07-29 20:13:27,711] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@76452b28] 
+[2023-07-29 20:13:27,792] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-07-29 20:13:27,830] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:13:27,880] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-07-29 20:13:27,898] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/C:/Users/tausif.ahmad/OneDrive%20-%20HCL%20Technologies%20Ltd/Desktop/Tortoise_Repo/TrainingWorkflow/target/classes/META-INF/processes.xml] 
+[2023-07-29 20:13:28,003] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+        userformPOC.form
+] 
+[2023-07-29 20:13:29,926] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [6c72cd0b-2d15-11ee-a7d0-085bd6a1e528]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:6ca798af-2d15-11ee-a7d0-085bd6a1e528]
+Deployment does not provide any case definitions.] 
+[2023-07-29 20:13:30,345] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-07-29 20:13:30,346] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 26.002 seconds (JVM running for 3684.852)] 
+[2023-07-29 20:13:30,350] - [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [onApplicationEvent] -> (INFO) [Condition evaluation unchanged] 
+[2023-07-29 20:13:30,351] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-07-29 20:13:30,352] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-07-29 20:19:18,977] - [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [onApplicationEvent] -> (INFO) [Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)] 
+[2023-07-29 20:19:21,141] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-07-29 20:19:21,176] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:19:21,176] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-07-29 20:19:21,180] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:19:21,181] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:19:25,443] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-07-29 20:19:25,443] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-07-29 20:19:26,090] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-07-29 20:19:26,090] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 20:19:26,091] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-4 - Shutdown initiated...] 
+[2023-07-29 20:19:28,364] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-4 - Shutdown completed.] 
+[2023-07-29 20:19:28,632] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 15984 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 20:19:28,634] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 20:19:29,182] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 20:19:29,290] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 107 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 20:19:29,534] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 20:19:29,535] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:19:29,535] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 20:19:29,536] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 20:19:29,710] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 20:19:29,710] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 1071 ms] 
+[2023-07-29 20:19:29,718] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 20:19:29,719] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 20:19:29,847] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 20:19:29,861] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-5 - Starting...] 
+[2023-07-29 20:19:32,540] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-5 - Start completed.] 
+[2023-07-29 20:19:32,541] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 20:19:36,312] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 20:19:36,312] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 20:19:36,363] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 20:19:36,421] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 20:19:36,421] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 20:19:36,422] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 20:19:36,422] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 20:19:36,422] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 20:19:36,422] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 20:19:36,423] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 20:19:36,424] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 20:19:36,432] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 20:19:36,432] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 20:19:36,436] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 20:19:36,436] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@648342d0, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@57c12696)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@13821eae, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 20:19:48,833] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-07-29 20:19:50,366] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=1, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}qaaod5sQzlNBX/DtkFXV2Wtk8JFgT7Sj5fESaYk+nEvrAaXdTQt9ciqlrYrvTsSbcsJ3q7r9e7fzAGkK8ePNCQ==, salt=jinu/MNTKMO3yXaPnYXLOA==, lockExpirationTime=null, attempts=0]] 
+[2023-07-29 20:19:50,389] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-07-29 20:19:50,900] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-07-29 20:19:51,055] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@116a65ee] 
+[2023-07-29 20:19:51,061] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@3f065612] 
+[2023-07-29 20:19:51,136] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-07-29 20:19:51,167] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:19:51,192] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-07-29 20:19:51,210] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/C:/Users/tausif.ahmad/OneDrive%20-%20HCL%20Technologies%20Ltd/Desktop/Tortoise_Repo/TrainingWorkflow/target/classes/META-INF/processes.xml] 
+[2023-07-29 20:19:51,344] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+        userformPOC.form
+] 
+[2023-07-29 20:19:53,336] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [6c72cd0b-2d15-11ee-a7d0-085bd6a1e528]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:6ca798af-2d15-11ee-a7d0-085bd6a1e528]
+Deployment does not provide any case definitions.] 
+[2023-07-29 20:19:53,771] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-07-29 20:19:53,772] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 25.258 seconds (JVM running for 4068.278)] 
+[2023-07-29 20:19:53,775] - [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [onApplicationEvent] -> (INFO) [Condition evaluation unchanged] 
+[2023-07-29 20:19:53,776] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-07-29 20:19:53,777] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-07-29 20:20:01,603] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 20:20:05,021] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 20:20:06,138] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 20:20:06,366] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 20:20:22,497] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 20:20:23,811] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[workflow(Id=7, Name=NEW_HIRE, category=4, taskId=1), workflow(Id=8, Name=AWS, category=4, taskId=2)]] 
+[2023-07-29 20:20:23,811] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [M Value NEW_HIRE Task Value NEW_HIRE] 
+[2023-07-29 20:20:23,812] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 20:20:23,812] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [Start creation of KieBase: defaultKieBase] 
+[2023-07-29 20:20:23,822] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [End creation of KieBase: defaultKieBase] 
+[2023-07-29 20:20:24,043] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Modules form database is :- Modules(moduleId=1, moduleName=NEW_HIRE, Exam=0, groupId=null, duration=5, POC=0)] 
+[2023-07-29 20:20:24,269] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [New value :-Task(id=0, taskId=2, userId=52087286, task=AWS, Status=InProgress, duedate=2023-08-03, approver=null)] 
+[2023-07-29 20:20:24,491] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [setComplete] -> (INFO) [Completed] 
+[2023-07-29 20:20:24,492] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [setComplete] -> (INFO) [Approver Name null] 
+[2023-07-29 20:20:24,493] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [save] -> (INFO) [InProgress] 
+[2023-07-29 20:20:24,711] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=1, userId=52087286, task=NEW_HIRE, Status=Completed, duedate=2023-07-25, approver=null)] 
+[2023-07-29 20:20:24,712] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Next task obj from ServiceFinalTask :- Task(id=6, taskId=2, userId=52087286, task=AWS, Status=InProgress, duedate=2023-08-03, approver=null)] 
+[2023-07-29 20:20:24,713] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForNextTask] -> (INFO) [Inside the mailSendingForNextTask() method now........] 
+[2023-07-29 20:20:24,900] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForNextTask] -> (INFO) [Exception encountered while sending next task mail..] 
+[2023-07-29 20:23:45,932] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring DispatcherServlet 'dispatcherServlet'] 
+[2023-07-29 20:23:45,934] - [org.springframework.web.servlet.DispatcherServlet] [initServletBean] -> (INFO) [Initializing Servlet 'dispatcherServlet'] 
+[2023-07-29 20:23:45,939] - [org.springframework.web.servlet.DispatcherServlet] [initServletBean] -> (INFO) [Completed initialization in 5 ms] 
+[2023-07-29 20:23:46,308] - [org.apache.catalina.util.SessionIdGeneratorBase] [log] -> (WARN) [Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [254] milliseconds.] 
+[2023-07-29 20:26:40,267] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-07-29 20:26:42,466] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-07-29 20:26:42,503] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:26:42,503] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-07-29 20:26:42,505] - [org.apache.catalina.core.StandardWrapper] [log] -> (INFO) [Waiting for [1] instance(s) to be deallocated for Servlet [Engine Api]] 
+[2023-07-29 20:26:43,512] - [org.apache.catalina.core.StandardWrapper] [log] -> (INFO) [Waiting for [1] instance(s) to be deallocated for Servlet [Engine Api]] 
+[2023-07-29 20:26:44,519] - [org.apache.catalina.core.StandardWrapper] [log] -> (INFO) [Waiting for [1] instance(s) to be deallocated for Servlet [Engine Api]] 
+[2023-07-29 20:26:44,627] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Destroying Spring FrameworkServlet 'dispatcherServlet'] 
+[2023-07-29 20:26:44,653] - [org.apache.catalina.loader.WebappClassLoaderBase] [log] -> (WARN) [The web application [ROOT] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.base@17.0.4.1/sun.nio.ch.Net.poll(Native Method)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:181)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.park(NioSocketImpl.java:190)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:314)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+ java.base@17.0.4.1/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+ java.base@17.0.4.1/java.net.Socket$SocketInputStream.read(Socket.java:966)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1460)
+ java.base@17.0.4.1/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064)
+ java.base@17.0.4.1/java.io.FilterInputStream.read(FilterInputStream.java:132)
+ app//com.mysql.cj.protocol.FullReadInputStream.readFully(FullReadInputStream.java:64)
+ app//com.mysql.cj.protocol.a.SimplePacketReader.readHeaderLocal(SimplePacketReader.java:81)
+ app//com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:63)
+ app//com.mysql.cj.protocol.a.SimplePacketReader.readHeader(SimplePacketReader.java:45)
+ app//com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:52)
+ app//com.mysql.cj.protocol.a.TimeTrackingPacketReader.readHeader(TimeTrackingPacketReader.java:41)
+ app//com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:54)
+ app//com.mysql.cj.protocol.a.MultiPacketReader.readHeader(MultiPacketReader.java:44)
+ app//com.mysql.cj.protocol.a.NativeProtocol.readMessage(NativeProtocol.java:575)
+ app//com.mysql.cj.protocol.a.NativeProtocol.checkErrorMessage(NativeProtocol.java:761)
+ app//com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:700)
+ app//com.mysql.cj.protocol.a.NativeProtocol.sendCommand(NativeProtocol.java:155)
+ app//com.mysql.cj.NativeSession.queryServerVariable(NativeSession.java:597)
+ app//com.mysql.cj.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:1394)
+ app//com.mysql.cj.jdbc.ConnectionImpl.isReadOnly(ConnectionImpl.java:1387)
+ app//com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:386)
+ app//com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:795)
+ app//com.zaxxer.hikari.pool.ProxyStatement.executeBatch(ProxyStatement.java:127)
+ app//com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeBatch(HikariProxyPreparedStatement.java)
+ app//org.apache.ibatis.executor.BatchExecutor.doFlushStatements(BatchExecutor.java:123)
+ app//org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:129)
+ app//org.apache.ibatis.executor.BaseExecutor.flushStatements(BaseExecutor.java:122)
+ app//org.apache.ibatis.executor.CachingExecutor.flushStatements(CachingExecutor.java:114)
+ app//org.apache.ibatis.session.defaults.DefaultSqlSession.flushStatements(DefaultSqlSession.java:252)
+ app//org.camunda.bpm.engine.impl.db.sql.DbSqlSession.flushBatchOperations(DbSqlSession.java:443)
+ app//org.camunda.bpm.engine.impl.db.sql.BatchDbSqlSession.executeDbOperations(BatchDbSqlSession.java:73)
+ app//org.camunda.bpm.engine.impl.db.entitymanager.DbEntityManager.flushDbOperations(DbEntityManager.java:341)
+ app//org.camunda.bpm.engine.impl.db.entitymanager.DbEntityManager.flushDbOperationManager(DbEntityManager.java:323)
+ app//org.camunda.bpm.engine.impl.db.entitymanager.DbEntityManager.flush(DbEntityManager.java:295)
+ app//org.camunda.bpm.engine.impl.interceptor.CommandContext.flushSessions(CommandContext.java:272)
+ app//org.camunda.bpm.engine.impl.interceptor.CommandContext.close(CommandContext.java:188)
+ app//org.camunda.bpm.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:119)
+ app//org.camunda.bpm.engine.spring.SpringTransactionInterceptor.lambda$execute$0(SpringTransactionInterceptor.java:71)
+ app//org.camunda.bpm.engine.spring.SpringTransactionInterceptor$$Lambda$1091/0x0000000800c02070.doInTransaction(Unknown Source)
+ app//org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+ app//org.camunda.bpm.engine.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:71)
+ app//org.camunda.bpm.engine.impl.interceptor.ProcessApplicationContextInterceptor.execute(ProcessApplicationContextInterceptor.java:70)
+ app//org.camunda.bpm.engine.impl.interceptor.CommandCounterInterceptor.execute(CommandCounterInterceptor.java:35)
+ app//org.camunda.bpm.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:33)
+ app//org.camunda.bpm.engine.impl.interceptor.ExceptionCodeInterceptor.execute(ExceptionCodeInterceptor.java:55)
+ app//org.camunda.bpm.engine.impl.RepositoryServiceImpl.deleteDeployment(RepositoryServiceImpl.java:125)
+ app//org.camunda.bpm.engine.rest.sub.repository.impl.DeploymentResourceImpl.deleteDeployment(DeploymentResourceImpl.java:152)
+ java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+ java.base@17.0.4.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+ java.base@17.0.4.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+ java.base@17.0.4.1/java.lang.reflect.Method.invoke(Method.java:568)
+ app//org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+ app//org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory$$Lambda$1811/0x0000000801042fb8.invoke(Unknown Source)
+ app//org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:124)
+ app//org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:167)
+ app//org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$VoidOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:159)
+ app//org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:79)
+ app//org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:475)
+ app//org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:397)
+ app//org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:81)
+ app//org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:255)
+ app//org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+ app//org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+ app//org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+ app//org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+ app//org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+ app//org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+ app//org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:234)
+ app//org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:684)
+ app//org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+ app//org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+ app//org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:366)
+ app//org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:319)
+ app//org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.camunda.bpm.webapp.impl.engine.ProcessEnginesFilter.applyFilter(ProcessEnginesFilter.java:147)
+ app//org.camunda.bpm.spring.boot.starter.webapp.filter.ResourceLoadingProcessEnginesFilter.applyFilter(ResourceLoadingProcessEnginesFilter.java:58)
+ app//org.camunda.bpm.webapp.impl.filter.AbstractTemplateFilter.doFilter(AbstractTemplateFilter.java:58)
+ app//org.camunda.bpm.spring.boot.starter.webapp.filter.LazyDelegateFilter.doFilter(LazyDelegateFilter.java:60)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.camunda.bpm.webapp.impl.security.filter.headersec.HttpHeaderSecurityFilter.doFilter(HttpHeaderSecurityFilter.java:89)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.camunda.bpm.webapp.impl.security.filter.SessionCookieFilter.doFilter(SessionCookieFilter.java:52)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.camunda.bpm.webapp.impl.security.filter.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:171)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.camunda.bpm.webapp.impl.security.filter.SecurityFilter.doFilterSecure(SecurityFilter.java:73)
+ app//org.camunda.bpm.webapp.impl.security.filter.SecurityFilter.doFilter(SecurityFilter.java:57)
+ app//org.camunda.bpm.spring.boot.starter.webapp.filter.LazyDelegateFilter.doFilter(LazyDelegateFilter.java:60)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter$1.execute(AuthenticationFilter.java:62)
+ app//org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter$1.execute(AuthenticationFilter.java:60)
+ app//org.camunda.bpm.webapp.impl.security.SecurityActions.runWithAuthentications(SecurityActions.java:44)
+ app//org.camunda.bpm.webapp.impl.security.auth.AuthenticationFilter.doFilter(AuthenticationFilter.java:60)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+ app//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+ app//org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+ app//org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+ app//org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+ app//org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+ app//org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+ app//org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+ app//org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+ app//org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+ app//org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360)
+ app//org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399)
+ app//org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+ app//org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890)
+ app//org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789)
+ app//org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ app//org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+ app//org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+ app//org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)]] 
+[2023-07-29 20:26:44,655] - [org.apache.catalina.loader.WebappClassLoaderBase] [log] -> (WARN) [The web application [ROOT] appears to have started a thread named [Camunda BPM Runtime Telemetry Reporter] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/java.lang.Object.wait(Native Method)
+ java.base@17.0.4.1/java.util.TimerThread.mainLoop(Timer.java:563)
+ java.base@17.0.4.1/java.util.TimerThread.run(Timer.java:516)] 
+[2023-07-29 20:26:44,656] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:26:49,659] - [org.apache.tomcat.util.net.NioEndpoint] [log] -> (WARN) [The executor associated with thread pool [http-nio-9002] has not fully shutdown. Some application threads may still be running.] 
+[2023-07-29 20:26:49,660] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:26:54,242] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-07-29 20:26:54,242] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 
+[2023-07-29 20:26:54,895] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00007 Process Engine default closed] 
+[2023-07-29 20:26:54,896] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [destroy] -> (INFO) [Closing JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 20:26:54,897] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-5 - Shutdown initiated...] 
+[2023-07-29 20:26:57,179] - [com.zaxxer.hikari.HikariDataSource] [close] -> (INFO) [HikariPool-5 - Shutdown completed.] 
+[2023-07-29 20:27:16,270] - [org.hibernate.validator.internal.util.Version] [<clinit>] -> (INFO) [HV000001: Hibernate Validator 6.2.5.Final] 
+[2023-07-29 20:27:16,361] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarting] -> (INFO) [Starting TrainingWorkflowApplication using Java 17.0.4.1 on LP-5CG0471VCD with PID 8388 (C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow\target\classes started by tausif.ahmad in C:\Users\tausif.ahmad\OneDrive - HCL Technologies Ltd\Desktop\Tortoise_Repo\TrainingWorkflow)] 
+[2023-07-29 20:27:16,371] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStartupProfileInfo] -> (INFO) [No active profile set, falling back to 1 default profile: "default"] 
+[2023-07-29 20:27:16,491] - [org.springframework.boot.devtools.restart.ChangeableUrls] [logTo] -> (INFO) [The Class-Path manifest attribute in C:\Users\tausif.ahmad\.m2\repository\org\glassfish\hk2\hk2\2.6.1\hk2-2.6.1.jar referenced one or more files that do not exist: file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-utils.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.annotation-api.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/jakarta.inject.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-api.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/aopalliance-repackaged.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-core.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-locator.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/javassist.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/hk2-runlevel.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/class-model.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-analysis.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-commons.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-tree.jar,file:/C:/Users/tausif.ahmad/.m2/repository/org/glassfish/hk2/hk2/2.6.1/asm-util.jar] 
+[2023-07-29 20:27:16,492] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable] 
+[2023-07-29 20:27:16,493] - [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [logTo] -> (INFO) [For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'] 
+[2023-07-29 20:27:18,881] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Bootstrapping Spring Data JPA repositories in DEFAULT mode.] 
+[2023-07-29 20:27:19,186] - [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [registerRepositoriesIn] -> (INFO) [Finished Spring Data repository scanning in 281 ms. Found 9 JPA repository interfaces.] 
+[2023-07-29 20:27:21,116] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [initialize] -> (INFO) [Tomcat initialized with port(s): 9002 (http)] 
+[2023-07-29 20:27:21,136] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Initializing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:27:21,137] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Starting service [Tomcat]] 
+[2023-07-29 20:27:21,138] - [org.apache.catalina.core.StandardEngine] [log] -> (INFO) [Starting Servlet engine: [Apache Tomcat/9.0.65]] 
+[2023-07-29 20:27:22,286] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring embedded WebApplicationContext] 
+[2023-07-29 20:27:22,286] - [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [prepareWebApplicationContext] -> (INFO) [Root WebApplicationContext: initialization completed in 5791 ms] 
+[2023-07-29 20:27:22,323] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Configuring camunda rest api.] 
+[2023-07-29 20:27:22,363] - [org.camunda.bpm.spring.boot.starter.rest.CamundaJerseyResourceConfig] [registerCamundaRestResources] -> (INFO) [Finished configuring camunda rest api.] 
+[2023-07-29 20:27:22,892] - [org.hibernate.jpa.internal.util.LogHelper] [logPersistenceUnitInformation] -> (INFO) [HHH000204: Processing PersistenceUnitInfo [name: default]] 
+[2023-07-29 20:27:22,972] - [org.hibernate.Version] [logVersion] -> (INFO) [HHH000412: Hibernate ORM core version 5.6.11.Final] 
+[2023-07-29 20:27:23,203] - [org.hibernate.annotations.common.Version] [<clinit>] -> (INFO) [HCANN000001: Hibernate Commons Annotations {5.1.2.Final}] 
+[2023-07-29 20:27:23,370] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Starting...] 
+[2023-07-29 20:27:26,534] - [com.zaxxer.hikari.HikariDataSource] [getConnection] -> (INFO) [HikariPool-1 - Start completed.] 
+[2023-07-29 20:27:26,564] - [org.hibernate.dialect.Dialect] [<init>] -> (INFO) [HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect] 
+[2023-07-29 20:27:31,760] - [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] [initiateService] -> (INFO) [HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]] 
+[2023-07-29 20:27:31,780] - [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] [buildNativeEntityManagerFactory] -> (INFO) [Initialized JPA EntityManagerFactory for persistence unit 'default'] 
+[2023-07-29 20:27:32,129] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB040 Setting up jobExecutor with corePoolSize=3, maxPoolSize:10] 
+[2023-07-29 20:27:32,314] - [org.camunda.bpm.engine.cfg] [logInfo] -> (INFO) [ENGINE-12003 Plugin 'CompositeProcessEnginePlugin[genericPropertiesConfiguration, camundaProcessEngineConfiguration, camundaDatasourceConfiguration, camundaJpaConfiguration, camundaJobConfiguration, camundaHistoryConfiguration, camundaMetricsConfiguration, camundaAuthorizationConfiguration, CreateAdminUserConfiguration[adminUser=AdminUserProperty[id=Test, firstName=Test, lastName=Test, email=Test@localhost, password=******]], failedJobConfiguration, disableDeploymentResourcePattern, eventPublisherPlugin, ApplicationContextClassloaderSwitchPlugin, SpringBootSpinProcessEnginePlugin]' activated on process engine 'default'] 
+[2023-07-29 20:27:32,324] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB020 ProcessApplication enabled: autoDeployment via springConfiguration#deploymentResourcePattern is disabled] 
+[2023-07-29 20:27:32,326] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-001: Initialized Camunda Spring Boot Eventing Engine Plugin.] 
+[2023-07-29 20:27:32,327] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-003: Task events will be published as Spring Events.] 
+[2023-07-29 20:27:32,327] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-005: Execution events will be published as Spring Events.] 
+[2023-07-29 20:27:32,330] - [org.camunda.bpm.spring.boot.starter.event.EventPublisherPlugin] [preInit] -> (INFO) [EVENTING-007: History events will be published as Spring events.] 
+[2023-07-29 20:27:32,341] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormatProvider[name = application/json]] 
+[2023-07-29 20:27:32,699] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01010 Discovered Spin data format provider: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormatProvider[name = application/xml]] 
+[2023-07-29 20:27:32,830] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.xml.dom.format.DomXmlDataFormat[name = application/xml]] 
+[2023-07-29 20:27:32,830] - [org.camunda.spin] [logInfo] -> (INFO) [SPIN-01009 Discovered Spin data format: org.camunda.spin.impl.json.jackson.format.JacksonJsonDataFormat[name = application/json]] 
+[2023-07-29 20:27:33,166] - [org.camunda.bpm.dmn.feel.scala] [logInfo] -> (INFO) [FEEL/SCALA-01001 Spin value mapper detected] 
+[2023-07-29 20:27:33,266] - [org.camunda.feel.FeelEngine] [<init>] -> (INFO) [Engine created. [value-mapper: CompositeValueMapper(List(org.camunda.feel.impl.JavaValueMapper@1872a44e, org.camunda.spin.plugin.impl.feel.integration.SpinValueMapper@6666845e)), function-provider: org.camunda.bpm.dmn.feel.impl.scala.function.CustomFunctionTransformer@412bf452, clock: SystemClock, configuration: Configuration(false)]] 
+[2023-07-29 20:27:39,647] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'http-connector' and class 'org.camunda.connect.httpclient.impl.HttpConnectorImpl': 'org.camunda.connect.httpclient.impl.HttpConnectorProviderImpl'] 
+[2023-07-29 20:27:39,652] - [org.camunda.bpm.connect] [logInfo] -> (INFO) [CNCT-01004 Discovered provider for connector id 'soap-http-connector' and class 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorImpl': 'org.camunda.connect.httpclient.soap.impl.SoapHttpConnectorProviderImpl'] 
+[2023-07-29 20:27:46,678] - [org.camunda.bpm.engine] [logInfo] -> (INFO) [ENGINE-00001 Process Engine default created.] 
+[2023-07-29 20:27:48,333] - [org.camunda.bpm.spring.boot] [logInfo] -> (INFO) [STARTER-SB011 Skip creating initial Admin User, user does exist: UserEntity[id=Test, revision=1, firstName=Test, lastName=Test, email=Test@localhost, password={SHA-512}qaaod5sQzlNBX/DtkFXV2Wtk8JFgT7Sj5fESaYk+nEvrAaXdTQt9ciqlrYrvTsSbcsJ3q7r9e7fzAGkK8ePNCQ==, salt=jinu/MNTKMO3yXaPnYXLOA==, lockExpirationTime=null, attempts=0]] 
+[2023-07-29 20:27:48,720] - [org.drools.compiler.kie.builder.impl.KieBuilderImpl] [packageNameForFile] -> (WARN) [File 'rules/tasks.drl' is in folder 'rules' but declares package 'com.foobat'. It is advised to have a correspondance between package and folder names.] 
+[2023-07-29 20:27:50,370] - [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] [openEntityManagerInViewInterceptor] -> (WARN) [spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning] 
+[2023-07-29 20:27:50,889] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazyProcessEnginesFilter@119a7319] 
+[2023-07-29 20:27:51,002] - [org.camunda.bpm.spring.boot.starter.webapp.filter.LazyInitRegistration] [lazyInit] -> (INFO) [lazy initialized org.camunda.bpm.spring.boot.starter.webapp.filter.LazySecurityFilter@291d4ca2] 
+[2023-07-29 20:27:51,520] - [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [startServer] -> (INFO) [LiveReload server is running on port 35729] 
+[2023-07-29 20:27:51,589] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Starting ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 20:27:51,667] - [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [start] -> (INFO) [Tomcat started on port(s): 9002 (http) with context path ''] 
+[2023-07-29 20:27:51,726] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08024 Found processes.xml file at file:/C:/Users/tausif.ahmad/OneDrive%20-%20HCL%20Technologies%20Ltd/Desktop/Tortoise_Repo/TrainingWorkflow/target/classes/META-INF/processes.xml] 
+[2023-07-29 20:27:51,880] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08023 Deployment summary for process archive 'trainingWorkflowApplication': 
+
+        userform.form
+        training-workflow.bpmn
+        userformPOC.form
+] 
+[2023-07-29 20:27:54,192] - [org.camunda.bpm.application] [logInfo] -> (INFO) [ENGINE-07021 ProcessApplication 'trainingWorkflowApplication' registered for DB deployments [4b0d2dcd-2e20-11ee-bb19-085bd6a1e528]. Will execute process definitions 
+
+        Decision[version: 1, id: Decision:1:4b43ce31-2e20-11ee-bb19-085bd6a1e528]
+Deployment does not provide any case definitions.] 
+[2023-07-29 20:28:01,759] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08050 Process application trainingWorkflowApplication successfully deployed] 
+[2023-07-29 20:28:01,766] - [com.hcl.elch.freshersuperchargers.trainingworkflow.TrainingWorkflowApplication] [logStarted] -> (INFO) [Started TrainingWorkflowApplication in 46.208 seconds (JVM running for 51.891)] 
+[2023-07-29 20:28:01,774] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14014 Starting up the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor].] 
+[2023-07-29 20:28:01,778] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14018 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] starting to acquire jobs] 
+[2023-07-29 20:28:33,729] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Initializing Spring DispatcherServlet 'dispatcherServlet'] 
+[2023-07-29 20:28:33,729] - [org.springframework.web.servlet.DispatcherServlet] [initServletBean] -> (INFO) [Initializing Servlet 'dispatcherServlet'] 
+[2023-07-29 20:28:33,734] - [org.springframework.web.servlet.DispatcherServlet] [initServletBean] -> (INFO) [Completed initialization in 3 ms] 
+[2023-07-29 20:31:01,962] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 20:31:04,894] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 20:31:06,229] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 20:31:06,487] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 20:31:22,292] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 20:31:23,659] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[workflow(Id=7, Name=NEW_HIRE, category=4, taskId=1), workflow(Id=8, Name=AWS, category=4, taskId=2)]] 
+[2023-07-29 20:31:23,660] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [M Value NEW_HIRE Task Value NEW_HIRE] 
+[2023-07-29 20:31:23,661] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 20:31:23,661] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [Start creation of KieBase: defaultKieBase] 
+[2023-07-29 20:31:23,815] - [org.drools.compiler.kie.builder.impl.KieContainerImpl] [createKieBase] -> (INFO) [End creation of KieBase: defaultKieBase] 
+[2023-07-29 20:31:24,135] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [Modules form database is :- Modules(moduleId=1, moduleName=NEW_HIRE, Exam=0, groupId=null, duration=5, POC=0)] 
+[2023-07-29 20:31:24,449] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [New value :-Task(id=0, taskId=2, userId=52087286, task=AWS, Status=InProgress, duedate=2023-08-03, approver=null)] 
+[2023-07-29 20:31:24,683] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [setComplete] -> (INFO) [Completed] 
+[2023-07-29 20:31:24,684] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [setComplete] -> (INFO) [Approver Name null] 
+[2023-07-29 20:31:24,685] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [save] -> (INFO) [InProgress] 
+[2023-07-29 20:31:24,932] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=1, userId=52087286, task=NEW_HIRE, Status=Completed, duedate=2023-07-25, approver=null)] 
+[2023-07-29 20:31:24,933] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Next task obj from ServiceFinalTask :- Task(id=7, taskId=2, userId=52087286, task=AWS, Status=InProgress, duedate=2023-08-03, approver=null)] 
+[2023-07-29 20:31:24,933] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForNextTask] -> (INFO) [Inside the mailSendingForNextTask() method now........] 
+[2023-07-29 20:31:25,255] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForNextTask] -> (INFO) [Exception encountered while sending next task mail..] 
+[2023-07-29 20:54:01,872] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 20:54:03,518] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 20:54:04,661] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 20:54:04,894] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 20:54:20,712] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending] [execute] -> (INFO) [This is Email Sending Task about status] 
+[2023-07-29 20:54:20,714] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending] [execute] -> (INFO) [ Branch Names : 52087286AWS] 
+[2023-07-29 20:54:20,945] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending] [execute] -> (INFO) [Assesment Link :- exam_link] 
+[2023-07-29 20:54:20,946] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForTask] -> (INFO) [Inside the mailSendingForTask() method now........] 
+[2023-07-29 20:54:21,098] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForTask] -> (INFO) [Exception encountered while sending task mail..] 
+[2023-07-29 20:54:59,967] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [//////////////This is the SME/Approver task///////////////////] 
+[2023-07-29 20:55:00,194] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [Variables : 2] 
+[2023-07-29 20:55:00,422] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [Group users []] 
+[2023-07-29 20:55:00,424] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [Recipient :[]] 
+[2023-07-29 20:55:00,424] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [Approval url :- http://35.169.136.179:9002/camunda/app/tasklist/default/#/task=14c6d7db-2e24-11ee-bb19-085bd6a1e528] 
+[2023-07-29 20:55:00,425] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (WARN) [Not sending email to group ', users has no email address.] 
+[2023-07-29 20:57:01,852] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [getDetails] -> (INFO) [Start Event Connected] 
+[2023-07-29 20:57:03,521] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [In Service task to send EmailId] 
+[2023-07-29 20:57:04,678] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [camundaTask] -> (INFO) [User EMAIL :- ahmadtausif38@gmail.com Username :- Alagusundar G] 
+[2023-07-29 20:57:04,915] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskController] [execute] -> (INFO) [Processing] 
+[2023-07-29 20:57:20,860] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending] [execute] -> (INFO) [This is Email Sending Task about status] 
+[2023-07-29 20:57:20,861] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending] [execute] -> (INFO) [ Branch Names : 52087286AWS] 
+[2023-07-29 20:57:21,108] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.JavaEmailSending] [execute] -> (INFO) [Assesment Link :- exam_link] 
+[2023-07-29 20:57:21,108] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForTask] -> (INFO) [Inside the mailSendingForTask() method now........] 
+[2023-07-29 20:57:21,210] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForTask] -> (INFO) [Exception encountered while sending task mail..] 
+[2023-07-29 20:57:59,345] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [//////////////This is the SME/Approver task///////////////////] 
+[2023-07-29 20:57:59,577] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [Variables : 3] 
+[2023-07-29 20:57:59,801] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [Group users []] 
+[2023-07-29 20:57:59,801] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [Recipient :[]] 
+[2023-07-29 20:57:59,802] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (INFO) [Approval url :- http://35.169.136.179:9002/camunda/app/tasklist/default/#/task=14c6d7db-2e24-11ee-bb19-085bd6a1e5287fb40b32-2e24-11ee-bb19-085bd6a1e528] 
+[2023-07-29 20:57:59,802] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.TaskAssignmentListener] [notify] -> (WARN) [Not sending email to group ', users has no email address.] 
+[2023-07-29 21:04:49,553] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [/////////////////////Final Service task///////////////////] 
+[2023-07-29 21:04:51,198] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [[workflow(Id=7, Name=NEW_HIRE, category=4, taskId=1), workflow(Id=8, Name=AWS, category=4, taskId=2)]] 
+[2023-07-29 21:04:51,199] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [M Value AWS Task Value AWS] 
+[2023-07-29 21:04:51,200] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [getStatus] -> (INFO) [non-tier1-noncs category 4] 
+[2023-07-29 21:04:51,494] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [setComplete] -> (INFO) [Completed] 
+[2023-07-29 21:04:51,496] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [setComplete] -> (INFO) [Approver Name Test] 
+[2023-07-29 21:04:51,504] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.SchedulerServiceImpl] [save] -> (INFO) [Completed] 
+[2023-07-29 21:04:51,505] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Current task obj from ServiceFinalTask :- Task(id=0, taskId=2, userId=52087286, task=AWS, Status=Completed, duedate=2023-07-03, approver=Test)] 
+[2023-07-29 21:04:51,506] - [com.hcl.elch.freshersuperchargers.trainingworkflow.controller.ServiceFinalTask] [execute] -> (INFO) [Next task obj from ServiceFinalTask :- Task(id=0, taskId=2, userId=52087286, task=AWS, Status=Completed, duedate=2023-07-03, approver=Test)] 
+[2023-07-29 21:04:51,507] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForTaskCompletion] -> (INFO) [Inside the mailSendingForNextTask() method now........] 
+[2023-07-29 21:04:51,715] - [com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService] [mailSendingForTaskCompletion] -> (INFO) [Exception encountered while sending task completion mail..] 
+[2023-07-29 21:09:16,809] - [org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin] [shutdown] -> (INFO) [Application shutdown requested.] 
+[2023-07-29 21:09:19,089] - [org.camunda.bpm.container] [logInfo] -> (INFO) [ENGINE-08051 Process application trainingWorkflowApplication undeployed] 
+[2023-07-29 21:09:19,141] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Pausing ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 21:09:19,143] - [org.apache.catalina.core.StandardService] [log] -> (INFO) [Stopping service [Tomcat]] 
+[2023-07-29 21:09:19,168] - [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [log] -> (INFO) [Destroying Spring FrameworkServlet 'dispatcherServlet'] 
+[2023-07-29 21:09:19,223] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Stopping ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 21:09:19,229] - [org.apache.coyote.http11.Http11NioProtocol] [log] -> (INFO) [Destroying ProtocolHandler ["http-nio-9002"]] 
+[2023-07-29 21:09:24,897] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14015 Shutting down the JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor]] 
+[2023-07-29 21:09:24,898] - [org.camunda.bpm.engine.jobexecutor] [logInfo] -> (INFO) [ENGINE-14020 JobExecutor[org.camunda.bpm.engine.spring.components.jobexecutor.SpringJobExecutor] stopped job acquisition] 

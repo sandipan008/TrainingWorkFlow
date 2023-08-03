@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.User;
 
-public interface UserRepo extends JpaRepository<User, Long>{
+public interface UserRepo extends JpaRepository<User, String>{
 
 	//User findBysapId(long l);
 

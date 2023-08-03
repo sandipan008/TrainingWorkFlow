@@ -60,6 +60,8 @@ public class TaskController implements JavaDelegate {
 	@Autowired 
 	private CategoryService cr;
 	
+	public static long id;
+	
 	@Autowired 
 	private UserRepo ur;
 	
@@ -84,6 +86,7 @@ public class TaskController implements JavaDelegate {
 			    Map<String, Object> variables = new HashMap<String, Object>();
 			    variables.put("glo",task);
 			    LOGGER.info("Start Event Connected");
+			    id=task.getId();
 		    	glob=task;
 		    	RestTemplate rt=new RestTemplate();
 		    	HttpHeaders httpHeaders=new HttpHeaders();
@@ -93,6 +96,9 @@ public class TaskController implements JavaDelegate {
 			 }
 			 catch(Exception e)
 			 {
+				 Task t1=tr.getById(glob.getId());
+				 t1.setStatus("Error");
+				 tr.save(t1);
 				 throw new CamundaException("Camunda Exception, Unable to start the process",e);
 			 }
 		 }
@@ -147,6 +153,7 @@ public class TaskController implements JavaDelegate {
 		try {
 			LOGGER.info("In Service task to send EmailId");
 			Task glo=(Task) execution.getVariable("glob");
+			execution.setVariable("ErrorId", Long.toString(glob.getId()));
 			//String s=camundaTask(glob);
 			//execution.setVariable("Email",s);
 			
@@ -154,8 +161,9 @@ public class TaskController implements JavaDelegate {
 			User s=camundaTask(glob);
 			execution.setVariable("Email",s.getEmail());
 			execution.setVariable("username",s.getName());
-			execution.setVariable("ProjectAssignation", s.getProjectAssignation());
-			LOGGER.info(s.getProjectAssignation());
+			//execution.setVariable("ProjectAssignation", s.getProjectAssignation());
+			//LOGGER.info(s.getProjectAssignation());
+			execution.setVariable("ProjectAssignation", s.getProjAssignedStatus());
 			
 			Modules m=category(glob);
 			execution.setVariable("mainid", glob);
@@ -176,6 +184,9 @@ public class TaskController implements JavaDelegate {
 		catch(Exception e) 
 		{
 			e.printStackTrace();
+			Task t1=tr.getById(glob.getId());
+			t1.setStatus("Error");
+			tr.save(t1);
 			throw new BpmnError("Error,  Some Values are missing or wrong in task details",e);
 		}
 	  } 

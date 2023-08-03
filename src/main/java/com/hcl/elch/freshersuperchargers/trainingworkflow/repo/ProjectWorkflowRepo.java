@@ -7,6 +7,6 @@ import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.ProjectWorkflow
 
 public interface ProjectWorkflowRepo extends JpaRepository<ProjectWorkflow, Long>{
 
-	List<ProjectWorkflow> findByuser_sapId(long l);
+	List<ProjectWorkflow>  findByUser_sapId(long l);
 
 }

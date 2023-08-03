@@ -50,6 +50,7 @@ rule "updating values"
      		$task.setStatus("Completed");
      		$task.setApprover($task.getApprover());
      		t1.setStatus("InProgress");  
-     		LocalDate datePlus1 = $task.getDuedate().plusDays(m.getDuration()); 
+     		//LocalDate datePlus1 = $task.getDuedate().plusDays(m.getDuration()); 
+     		LocalDate datePlus1 = LocalDate.now().plusDays(m.getDuration()); 
      		t1.setDuedate(datePlus1);
 end

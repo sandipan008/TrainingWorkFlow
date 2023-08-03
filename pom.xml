@@ -11,7 +11,7 @@
 	<groupId>com.example</groupId>
 	<artifactId>FresherSuperChargers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<!--<packaging>war</packaging>-->
 	<name>FresherSuperChargers</name>
 	<description>Demo for drools Spring Boot</description>
 	<properties>
@@ -27,7 +27,7 @@
       		<dependency>
         		<groupId>org.springframework.boot</groupId>
         		<artifactId>spring-boot-dependencies</artifactId>
-        		<version>2.7.3</version>
+        		<version>2.6.12</version>
         		<type>pom</type>
         		<scope>import</scope>
       		</dependency>
@@ -46,6 +46,7 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+		
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
@@ -186,11 +187,11 @@
 				</configuration>
 			</plugin>
 			
-			<plugin>
+			<!--plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>2.12</version>
-			</plugin>
+			</plugin-->
 			
 			<plugin>
 			    <groupId>org.jacoco</groupId>

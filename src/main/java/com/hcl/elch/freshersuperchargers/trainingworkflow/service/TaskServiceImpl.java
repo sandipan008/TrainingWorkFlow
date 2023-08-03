@@ -43,6 +43,8 @@ public class TaskServiceImpl {
 	 @Autowired
 	 private ModuleRepo mr;
 	 
+	 public Task glob;
+	 
 	 @Autowired
 	 private WorkflowRepo wr;
 	 
@@ -54,12 +56,13 @@ public class TaskServiceImpl {
 	 protected final static Logger LOGGER = Logger.getLogger(SchedulerServiceImpl.class.getName());
 	 
 
-	public Task getStatus(Task task,Category category,String ProjectAssignation) throws DroolsEngineException{
+	public Task getStatus(Task task,Category category,Boolean ProjectAssignation) throws DroolsEngineException{
 		
 	try {
 		String s="null";
 		String last="null";
-		if(ProjectAssignation.equalsIgnoreCase("No")) {
+		//if(ProjectAssignation.equalsIgnoreCase("No")) {
+		if(ProjectAssignation==false) {
 		long l=category.getUserId();
 		List<workflow> m=wr.findBycategory(l);
 		LOGGER.info(m.toString());
@@ -78,9 +81,12 @@ public class TaskServiceImpl {
 		LOGGER.info(category.getCategory()+" category "+category.getUserId());
 		}
 		else {
+			LOGGER.info("Inside else ");
 			long l=task.getUserId();
-			List<ProjectWorkflow> p=pr.findByuser_sapId(l);
+			//System.out.println(l);
+			List<ProjectWorkflow> p=pr.findByUser_sapId(l);
 			//System.out.println(p.toString());
+			LOGGER.info("value of  p :- "+p);
 			
 			try {
 				for(int i=0;i<p.size();i++)
@@ -89,6 +95,7 @@ public class TaskServiceImpl {
 					{
 						LOGGER.info("M Value "+p.get(i).getName()+ " Task Value "+task.getTask());
 						s=p.get(i+1).getName();
+						LOGGER.info("S value"+s);
 					}
 				}}
 				catch(IndexOutOfBoundsException e) {
@@ -101,6 +108,7 @@ public class TaskServiceImpl {
 		
 		LOGGER.info("Modules form database is :- "+mr.getBymoduleName(task.getTask()).toString());
 		Modules m1=mr.getBymoduleName(s);
+		LOGGER.info("next module "+ m1.getDuration()+" "+m1.getModuleName());
 		kieSession.setGlobal("m",m1);
 		
 		kieSession.setGlobal("t1",t1);
@@ -119,6 +127,9 @@ public class TaskServiceImpl {
 	catch(Exception e)
 	{
 		LOGGER.info("Caught the Drools Exception");
+		Task t1=tr.getById(TaskController.id);
+		t1.setStatus("Error");
+		tr.save(t1);
 		throw new DroolsEngineException("Unable to perform the Drools Task,Because of drl file", e);	
 	}
 	}
@@ -141,6 +152,9 @@ public class TaskServiceImpl {
 	  catch(Exception e)
 	  {
 		  LOGGER.info("Unable to add new task details "+e);
+		  Task t1=tr.getById(TaskController.id);
+		  t1.setStatus("Error");
+		  tr.save(t1);
 	  }
 	}
 
@@ -166,6 +180,9 @@ public class TaskServiceImpl {
 	  }catch(Exception e)
 		{
 		  LOGGER.info("Exception occured, Unable to update the status of current task "+e);
+		  Task t1=tr.getById(TaskController.id);
+		  t1.setStatus("Error");
+		  tr.save(t1);
 		}
 	}
 
@@ -177,6 +194,9 @@ public class TaskServiceImpl {
 	  catch(Exception e)
 	  {
 		  e.printStackTrace();
+		  Task t1=tr.getById(TaskController.id);
+			t1.setStatus("Error");
+			tr.save(t1);
 		  throw new Exception(e);
 	  }
 	}

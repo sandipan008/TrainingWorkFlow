@@ -43,6 +43,8 @@ public class ServiceFinalTask implements JavaDelegate{
 	@Autowired 
 	private UserRepo ur;
 	
+	public long id;
+	
 	@Autowired
 	private FeedbackRepo feedbackRepo;
 	
@@ -58,11 +60,12 @@ public class ServiceFinalTask implements JavaDelegate{
 	
 	@Override
 	public void execute(DelegateExecution execution) throws CamundaException{
-	 try {
-		LOGGER.info("/////////////////////Final Service task///////////////////");
+		LOGGER.info("/////////////////////Final Service task///////////////////"); 
 		Task task=new Task();
 		Feedback feedback=new Feedback();
 		POC_Feedback pocFeedback=new POC_Feedback();
+		id=TaskController.id;
+	 try {
 		String date= (String) execution.getVariable("duedate");
 		String userid= (String) execution.getVariable("userId");
 		String taskid= (String) execution.getVariable("TaskId");
@@ -111,7 +114,7 @@ public class ServiceFinalTask implements JavaDelegate{
 		}
 //		System.out.println(d1);
 //		System.out.println(task.getTask());
-		String PA=(String) execution.getVariable("ProjectAssignation");
+		Boolean PA=(Boolean) execution.getVariable("ProjectAssignation");
 		
 		nextTask(task,PA);
 		
@@ -130,13 +133,16 @@ public class ServiceFinalTask implements JavaDelegate{
 	 {
 		  LOGGER.info("An Exception from Final Service Task Due to ");
 		  e.printStackTrace();
+		  Task t1=tr.getById(id);
+		  t1.setStatus("Error");
+		  tr.save(t1);
 		  throw new BpmnError("Camunda Exception",e);
 	 }
 	 
 	}
 	
 	
-    public void nextTask(Task task,String ProjectAssignation) {
+    public void nextTask(Task task,Boolean ProjectAssignation) {
     try
     {
 //    	System.out.println(task.getUserId());
@@ -154,5 +160,8 @@ public class ServiceFinalTask implements JavaDelegate{
     catch(Exception e)
     {
     	LOGGER.info("Unable to move to next Task"+e);
+    	Task t1=tr.getById(id);
+		t1.setStatus("Error");
+		tr.save(t1);
     }
 }}

@@ -30,13 +30,15 @@ public class EmailForUnSuccess implements JavaDelegate {
 	@Autowired
 	RuntimeService rs;
 	
+	public long Id;
+	
 	@Autowired
 	private EmailSenderService 	senderService;
 	
 	final Logger LOGGER = Logger.getLogger(TaskController.class.getName());
 
   public String mailSending(String Email,String Task) {
-	System.out.println(Email+" "+Task); 
+	//System.out.println(Email+" "+Task); 
 	//tc.settingStatus();
 	  /*final String HOST = "";
 	  final String USER = "";
@@ -78,6 +80,9 @@ public class EmailForUnSuccess implements JavaDelegate {
   	{
   		try {
   		LOGGER.info("///////////This is Email Sending Task about status////////////////");
+  		Id=TaskController.id;
+  		//id=(long) execution.getVariable("ErrorId");
+  		System.out.println(Id);
   		String Email=(String) execution.getVariable("Email");
   		String Task=(String) execution.getVariable("task");
   		
@@ -100,6 +105,9 @@ public class EmailForUnSuccess implements JavaDelegate {
   		{
   			e.printStackTrace();
   			//System.out.println("Camunda Exception Occured In Mail Sending Task ");
+  			Task t1=tr.getById(Id);
+  		    t1.setStatus("Error");
+  		    tr.save(t1);
   			throw new BpmnError("Exception Occured", e);
   		}
 	}

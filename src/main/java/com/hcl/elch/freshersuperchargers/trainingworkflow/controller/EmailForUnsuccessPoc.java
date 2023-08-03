@@ -27,7 +27,7 @@ public class EmailForUnsuccessPoc implements JavaDelegate{
 	@Autowired
 	private EmailSenderService 	senderService;
 	
-	
+	public long Id;
 	/* public String mailSending(String Email,String Task) {
 	System.out.println(Email+" "+Task); 
 	//tc.settingStatus();
@@ -75,8 +75,9 @@ public class EmailForUnsuccessPoc implements JavaDelegate{
   		System.out.println("///////////This is Email Sending Task about status////////////////");
   		String Email=(String) execution.getVariable("Email");
   		String Task=(String) execution.getVariable("task");
-  	
-
+  		Id=TaskController.id;
+        //id=(long) execution.getVariable("ErrorId");
+  		//System.out.println(execution.getVariable("ErrorId"));
   		String username=(String) execution.getVariable("username");
 		//System.out.println("Username from EmailForUnsuccessPoc class :-"+username);
 
@@ -88,19 +89,22 @@ public class EmailForUnsuccessPoc implements JavaDelegate{
   		//System.out.println("Due date : "+s1.getDuedate());
   		LocalDate lt= LocalDate.now();
   		
-  		System.out.println("Current date : "+lt);
+  		//System.out.println("Current date : "+lt);
   		LocalDate datePlus1 = lt.plusDays(2);
-  		System.out.println("Due date : "+datePlus1);
+  		//System.out.println("Due date : "+datePlus1);
  		s1.setDuedate(datePlus1);
   		s1.setStatus("InProgress");
   		tr.save(s1);
   		execution.setVariable("Decision", "Yes");//1
   		String s=senderService.mailSendingFailurePoc(username, Email,Task.toUpperCase());
-  		System.out.println(s1.getStatus());
+  		//System.out.println(s1.getStatus());
   		}catch(Exception e)
   		{
   			e.printStackTrace();
   			//System.out.println("Camunda Exception Occured In Mail Sending Task ");
+  			Task t1=tr.getById(Id);
+  			t1.setStatus("Error");
+  			tr.save(t1);
   			throw new BpmnError("Exception Occured", e);
   		}
 	}

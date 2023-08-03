@@ -10,7 +10,6 @@ import javax.mail.internet.MimeMessage;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
@@ -180,7 +179,7 @@ public class EmailSenderService {
 		try {
 			String htmlTemplate = loadFail_CompleteAndPocEmailTemplate();
 		
-			String body="Your POC for task <b>"+Task+"</b> is started."+"Commit Your Code into given github repository. <b>"+githuburl+"</b> Create a new branch with given branch name and commit into that branch. <b>"+branch+"</b>" ;
+			String body="Your POC for task <b>"+Task+"</b> is started."+"<br>Commit Your Code into given github repository. <b>"+githuburl+"</b> <br>Create a new branch with given branch name and commit into that branch. <b>"+branch+"</b>" ;
 			String msg="Please complete it as soon as possible.";
 			String n="SuperCharge Team";
 			String emailContent = htmlTemplate
@@ -291,7 +290,7 @@ public class EmailSenderService {
 			String htmlTemplate = loadEmailTemplate();
 		
 			String body="<b>"+task+"</b> POC for <b>"+username+"</b> has been completed and pending for your approval, click here to take action";
-			String msg="The Code is available in this repository <b>"+githuburl+"</b> under <b>"+branch+"</b> Review it and Please take action as soon as possible.";
+			String msg="The Code is available in this repository <b>"+githuburl+"</b> under <b>"+branch+"</b> <br>Review it and Please take action as soon as possible.";
 			String n="SuperCharge Team";
 			
 			String emailContent = htmlTemplate

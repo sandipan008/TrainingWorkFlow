@@ -28,7 +28,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Component;
 
+import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Task;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.CamundaException;
+import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.TaskRepo;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService;
 
 //import antlr.collections.List;
@@ -37,6 +39,11 @@ public class TaskAssignmentListener implements TaskListener {
 	
 		@Autowired 
 		RuntimeService  rs;
+		
+		@Autowired
+		private TaskRepo tr;
+		
+		public long id;
 		
 		@Autowired 
 		EmailSenderService senderService;
@@ -55,11 +62,13 @@ public class TaskAssignmentListener implements TaskListener {
 
 	  public void notify(DelegateTask delegateTask) {
 
-		 
+		 try {
 		  LOGGER.info("//////////////This is the SME/Approver task///////////////////");
 		  LOGGER.info("Variables : "+delegateTask.getVariable("groupId"));
 		  String taskId = delegateTask.getId();
 		  String assignee = delegateTask.getAssignee();
+		  
+		  id=TaskController.id;
 		  
 		  url=url+taskId;
 		  
@@ -160,9 +169,9 @@ public class TaskAssignmentListener implements TaskListener {
            
         	//  System.out.println(s);
         	//if(s.length()>=1) {
-        		 LOGGER.info(
-        	                "Task Assignment Email successfully sent to group '"  + "' with address '" + Arrays.toString(recipient) + "'.");
-        	          }
+//        		 LOGGER.info(
+//        	                "Task Assignment Email successfully sent to group '"  + "' with address '" + Arrays.toString(recipient) + "'.");
+          }
         	//}
             
           catch (Exception e) {
@@ -173,7 +182,15 @@ public class TaskAssignmentListener implements TaskListener {
         else {
           LOGGER.warning("Not sending email to group "  + "', users has no email address.");
         }
-
+		 }
+		 catch(Exception e)
+		 {
+			 LOGGER.info("Exception in Email Sending for sme in task assignment listener class"+e);
+			 e.printStackTrace();
+			 Task t1=tr.getById(id);
+			 t1.setStatus("Error");
+			 tr.save(t1);
+		 }
           
 	}
  }

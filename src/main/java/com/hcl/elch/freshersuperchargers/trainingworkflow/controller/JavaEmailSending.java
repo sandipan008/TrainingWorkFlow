@@ -20,6 +20,7 @@ import org.camunda.bpm.engine.delegate.JavaDelegate;
 import org.kie.internal.task.api.TaskVariable.VariableType;
 import org.camunda.bpm.engine.identity.User;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.event.ApplicationReadyEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Controller;
@@ -29,6 +30,7 @@ import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Modules;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Task;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.CamundaException;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.AssessmentRepo;
+import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.TaskRepo;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService;
 
 @Controller
@@ -36,6 +38,11 @@ public class JavaEmailSending implements JavaDelegate {
 
 	@Autowired
 	private TaskController tc;
+	
+	@Autowired
+	private TaskRepo tr;
+	
+	public long id;
 
 	final Logger LOGGER = Logger.getLogger(JavaEmailSending.class.getName());
 
@@ -44,6 +51,9 @@ public class JavaEmailSending implements JavaDelegate {
 
 	@Autowired
 	RuntimeService rs;
+	
+	@Value("${githuburl}") 
+	String url;
 	
 //	public String Email;
 //	public String Task;
@@ -159,6 +169,8 @@ public class JavaEmailSending implements JavaDelegate {
 		try {
 			LOGGER.info("This is Email Sending Task about status");
 			
+			id=TaskController.id;
+			
 //			Email = (String) execution.getVariable("Email");
 //			Task = (String) execution.getVariable("task");
 			
@@ -167,7 +179,9 @@ public class JavaEmailSending implements JavaDelegate {
 			String test=(String) execution.getVariable("test");
 			String poc=(String) execution.getVariable("poc");
 			
-			execution.setVariable("githuburl","https://github.com/ahmadtausif38/TrainingWorkFlow.git");
+			//execution.setVariable("githuburl","https://github.com/ahmadtausif38/TrainingWorkFlow.git");
+			execution.setVariable("githuburl",url);
+			//System.out.println("Github URL"+execution.getVariable("githuburl"));
 			String userId=(String) execution.getVariable("userId");
 			
 			execution.setVariable("BranchName", userId+Task);
@@ -228,6 +242,9 @@ public class JavaEmailSending implements JavaDelegate {
 			
 		} catch (Exception e) {
 			e.printStackTrace();
+			Task t1=tr.getById(id);
+			t1.setStatus("Error");
+			tr.save(t1);
 			throw new BpmnError("Exception Occured", e);
 		}
 	}

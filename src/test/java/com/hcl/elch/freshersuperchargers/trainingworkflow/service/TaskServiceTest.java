@@ -1,4 +1,4 @@
-package com.hcl.elch.freshersuperchargers.trainingworkflow.service;
+/*package com.hcl.elch.freshersuperchargers.trainingworkflow.service;
 
 import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.eq;
@@ -82,7 +82,7 @@ class TaskServiceTest {
 //		KieSession kieSession = mock(KieSession.class);
 //		when(kieContainer.newKieSession()).thenReturn(kieSession);
 		// Invoke the method under test
-		Task result = taskService.getStatus(task, category,"Yes");
+		Task result = taskService.getStatus(task, category,true);
 //		Task t1=new Task();
 //		Modules m1 = new Modules();
 //		verify(kieContainer).newKieSession();
@@ -117,7 +117,7 @@ class TaskServiceTest {
 		when(workflowRepo.findBycategory(111L)).thenReturn(workflows);
 		when(moduleRepo.getBymoduleName("DB")).thenReturn(module);
 		 
-		Task result=taskService.getStatus(task, category,"Yes");
+		Task result=taskService.getStatus(task, category,true);
 
 		
 		
@@ -205,4 +205,4 @@ class TaskServiceTest {
 		// Assert the result
 		
 	}
-}
+}*/

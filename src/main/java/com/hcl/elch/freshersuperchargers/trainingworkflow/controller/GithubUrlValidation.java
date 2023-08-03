@@ -13,9 +13,18 @@ import org.eclipse.jgit.api.errors.GitAPIException;
 import org.eclipse.jgit.api.errors.InvalidRemoteException;
 import org.eclipse.jgit.api.errors.TransportException;
 import org.eclipse.jgit.lib.Ref;
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Task;
+import com.hcl.elch.freshersuperchargers.trainingworkflow.repo.TaskRepo;
 
 public class GithubUrlValidation implements JavaDelegate
 {
+	@Autowired
+	private TaskRepo tr;
+	
+	public long id;
+	
 	final Logger LOGGER = Logger.getLogger(GithubUrlValidation.class.getName());
 	
 	/*public static void main(String args[]) throws InvalidRemoteException, TransportException, GitAPIException
@@ -53,8 +62,11 @@ public class GithubUrlValidation implements JavaDelegate
 	@Override
 	public void execute(DelegateExecution execution) throws Exception {
 		// TODO Auto-generated method stub
+	try {
 		
-		System.out.println("/****************GITHUB URL VALIDATION TASK******************/");
+		id=TaskController.id;
+		
+		LOGGER.info("In GITHUB URL VALIDATION TASK");
 		String branch= (String) execution.getVariable("BranchName");
 		String url=(String) execution.getVariable("githuburl");
 		
@@ -70,35 +82,34 @@ public class GithubUrlValidation implements JavaDelegate
             }
             Collections.sort(branches);
         } catch (InvalidRemoteException e) {
-            //LOGGER.error(" InvalidRemoteException occured in fetchGitBranches",e);
-        	System.out.printf(" InvalidRemoteException occured in fetchGitBranches",e);
+        	LOGGER.info(" InvalidRemoteException occured in fetchGitBranches "+e);
             e.printStackTrace();
         } catch (TransportException e) {
-            //LOGGER.error(" TransportException occurred in fetchGitBranches",e);
-        	System.out.printf("  TransportException occurred in fetchGitBranches",e);
+        	LOGGER.info("  TransportException occurred in fetchGitBranches "+e);
         } catch (GitAPIException e) {
-            //LOGGER.error(" GitAPIException occurred in fetchGitBranches",e);
-        	System.out.printf(" GitAPIException occurred in fetchGitBranches",e);
+        	LOGGER.info(" GitAPIException occurred in fetchGitBranches "+e);
         }
         
-        System.out.println("List of Branches : "+branches);
+        LOGGER.info("List of Branches : "+branches);
         
-        for(String b : branches)
-        {
-        	if(b.equalsIgnoreCase("Hi"))
-        	{
-        		execution.setVariable("Decision","Yes");
-        		System.out.println("Decision is Yes");
-        		break;
-        	}
-        	else {
-        		execution.setVariable("Decision", "No");
-        		System.out.println("Decision is No");
-        		break;
-        	}
-        }
+        if(branches.contains(branch))
+    	{
+    		execution.setVariable("Decision","Yes");
+    		LOGGER.info("Decision is Yes");
+    	}
+    	else {
+    		execution.setVariable("Decision", "No");
+    		LOGGER.info("Decision is No");
+    	}
 	
+	}
+	catch(Exception e) {
+		
+		LOGGER.info("Exception in GithubURL Validation"+e);
+		 Task t1=tr.getById(id);
+		  t1.setStatus("Error");
+		  tr.save(t1);
+	}    
 		
 	}
-
 }

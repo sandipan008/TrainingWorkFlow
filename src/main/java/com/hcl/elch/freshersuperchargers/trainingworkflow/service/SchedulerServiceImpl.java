@@ -20,9 +20,6 @@ public class SchedulerServiceImpl implements SchedulerService{
 	private TaskRepo repo;
 	
 	@Autowired
-	private TaskRepo rep;
-	
-	@Autowired
 	private TaskController cc;
 	
 	protected final static Logger LOGGER = Logger.getLogger(SchedulerServiceImpl.class.getName());
@@ -35,9 +32,9 @@ public class SchedulerServiceImpl implements SchedulerService{
 	 try {
 		List<Task> t=repo.findByStatus("InProgress");
 		for(Task task1:t) { 
-			System.out.println("Schedular Data : "+task1);
+			//System.out.println("Schedular Data : "+task1);
 			task1.setStatus("Processing");
-            rep.save(task1);
+            repo.save(task1);
 			cc.getDetails(task1);
 		}	
 	 }

@@ -92,7 +92,7 @@ public class ServiceFinalTaskTest {
 		
 		
 		
-		when(taskService.getStatus(task, category,"Yes")).thenReturn(nextTask);
+		when(taskService.getStatus(task, category,true)).thenReturn(nextTask);
 
 // Run the method to be tested
 		serviceFinalTask.execute(execution);
@@ -117,7 +117,7 @@ public class ServiceFinalTaskTest {
 		
 		User user = User.builder()
 				.sapId(123L)
-				.ProjectAssignation("Yes")
+				.ProjAssignedStatus(true)
 				.name("Sandipan Dandapat")
 				.email("sandipan@hcl.com")
 				.category(category)
@@ -128,10 +128,10 @@ public class ServiceFinalTaskTest {
 	
 		Task nextTask = Task.builder().id(2).taskId(1).userId(111L).Status("InProgress").task("DB")
 				.duedate(LocalDate.of(2023, 7, 20)).build();
-		when(taskService.getStatus(task, category, "Yes")).thenReturn(nextTask);
+		when(taskService.getStatus(task, category, true)).thenReturn(nextTask);
 	
 		// Run the method to be tested
-		serviceFinalTask.nextTask(task,"Yes");
+		serviceFinalTask.nextTask(task,true);
 	
 		// Verify the interactions
 		verify(taskService, times(1)).setComplete(task);
