@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "label": "UserEmail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0a5x0qp",
+        "columns": null
+      },
+      "id": "Field_02140rf",
+      "key": "Email",
+      "properties": {
+        "Email": "value"
+      }
+    },
+    {
+      "label": "Task Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0a5x0qp",
+        "columns": null
+      },
+      "id": "Field_00u3mt9",
+      "key": "task",
+      "properties": {
+        "task": "value"
+      }
+    },
+    {
+      "label": "Score",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1jv4v2f",
+        "columns": null
+      },
+      "id": "Field_11w3ba1",
+      "key": "score",
+      "validate": {
+        "required": true
+      },
+      "properties": {
+        "score": "value"
+      }
+    },
+    {
+      "label": "Approved By",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1p3d7nm",
+        "columns": null
+      },
+      "id": "Field_1lzuwjl",
+      "key": "approver",
+      "validate": {
+        "required": true
+      },
+      "properties": {
+        "approver": "value"
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Approval",
+      "type": "select",
+      "layout": {
+        "row": "Row_1kr1s1n",
+        "columns": null
+      },
+      "id": "Field_1p3ykx7",
+      "key": "Decision",
+      "validate": {
+        "required": true
+      },
+      "properties": {
+        "Decision": "value"
+      }
+    },
+    {
+      "label": "Remarks",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ioggc1",
+        "columns": null
+      },
+      "id": "Field_1enpgzz",
+      "key": "remarks",
+      "validate": {
+        "required": true
+      },
+      "properties": {
+        "remarks": "value"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "userform",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}

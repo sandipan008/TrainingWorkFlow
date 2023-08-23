@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "label": "UserEmail",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ysqida",
+        "columns": null
+      },
+      "id": "Field_1w42bzh",
+      "key": "Email",
+      "properties": {
+        "Email": "value"
+      }
+    },
+    {
+      "label": "Task Name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ysqida",
+        "columns": null
+      },
+      "id": "Field_01xmst6",
+      "key": "task",
+      "properties": {
+        "task": "value"
+      }
+    },
+    {
+      "label": "Approved By",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1swa33p",
+        "columns": null
+      },
+      "id": "Field_01racok",
+      "key": "pocApprover",
+      "validate": {
+        "required": true
+      },
+      "properties": {
+        "pocApprover": "value"
+      }
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "Yes"
+        },
+        {
+          "label": "No",
+          "value": "No"
+        }
+      ],
+      "label": "Approval",
+      "type": "select",
+      "layout": {
+        "row": "Row_06056dq",
+        "columns": null
+      },
+      "id": "Field_1b46rga",
+      "key": "Decision",
+      "validate": {
+        "required": true
+      },
+      "properties": {
+        "Decision": "value"
+      }
+    },
+    {
+      "label": "Remarks",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0ysmo5s",
+        "columns": null
+      },
+      "id": "Field_0pw89xb",
+      "key": "pocRemarks",
+      "validate": {
+        "required": true
+      },
+      "properties": {
+        "pocRemarks": "value"
+      }
+    }
+  ],
+  "type": "default",
+  "id": "userformPOC",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.11.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 8
+}
