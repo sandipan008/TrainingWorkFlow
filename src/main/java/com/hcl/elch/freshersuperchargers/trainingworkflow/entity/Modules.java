@@ -3,7 +3,6 @@ package com.hcl.elch.freshersuperchargers.trainingworkflow.entity;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;

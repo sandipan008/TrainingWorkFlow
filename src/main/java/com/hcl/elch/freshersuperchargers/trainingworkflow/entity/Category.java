@@ -1,12 +1,10 @@
 package com.hcl.elch.freshersuperchargers.trainingworkflow.entity;
 
-import java.util.List;
+import java.io.Serializable;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -20,8 +18,10 @@ import lombok.NoArgsConstructor;
 @Data
 @Builder
 @Table(name="category_master")
-public class Category {
+public class Category implements Serializable {
 	
+	private static final long serialVersionUID = 5812545298367977722L;
+
 	@Id
 	@Column(name="Id")
 	long userId;

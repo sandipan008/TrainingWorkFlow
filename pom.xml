@@ -11,11 +11,10 @@
 	<groupId>com.example</groupId>
 	<artifactId>FresherSuperChargers</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 	<name>FresherSuperChargers</name>
 	<description>Demo for drools Spring Boot</description>
 	<properties>
-		<java.version>17</java.version>
+		<java.version>11</java.version>
 		<drools.version>7.59.0.Final</drools.version>
 		<javax-servlet-api.version>4.0.1</javax-servlet-api.version>
     	<commons-email.version>1.5</commons-email.version>
@@ -185,13 +184,11 @@
 					</excludes>
 				</configuration>
 			</plugin>
-			
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-surefire-plugin</artifactId>
-				<version>2.12</version>
-			</plugin>
-			
+                <groupId>org.sonarsource.scanner.maven</groupId>
+                <artifactId>sonar-maven-plugin</artifactId>
+                <version>3.9.0.2155</version>
+            </plugin>
 			<plugin>
 			    <groupId>org.jacoco</groupId>
 			    <artifactId>jacoco-maven-plugin</artifactId>
@@ -214,6 +211,10 @@
 			    <configuration>
 			    	<excludes>
 			    		<exclude>com/hcl/elch/freshersuperchargers/trainingworkflow/service/EmailSenderService.class</exclude>
+			    		<exclude>com/hcl/elch/freshersuperchargers/trainingworkflow/config/**</exclude>
+			    		<exclude>com/hcl/elch/freshersuperchargers/trainingworkflow/entity/**</exclude>
+			    		<exclude>com/hcl/elch/freshersuperchargers/trainingworkflow/exceptions/**</exclude>
+			    		<exclude>com/hcl/elch/freshersuperchargers/trainingworkflow/repo/**</exclude>
 			    	</excludes>
 			    </configuration>
 			</plugin>

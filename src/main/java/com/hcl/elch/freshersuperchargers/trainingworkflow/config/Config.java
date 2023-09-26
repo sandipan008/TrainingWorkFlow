@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.DroolsEngineException;
-import com.hcl.elch.freshersuperchargers.trainingworkflow.exceptions.KafkaReceiverException;
  
 @Configuration
 public class Config {
@@ -32,7 +31,6 @@ public class Config {
     	}
     	catch(Exception e)
     	{
-    		//System.out.println("Caught the Drools Exception");
     		throw new DroolsEngineException("Unable to perform the Drools Task,Because of drl file", e);
     	}
   }

@@ -1,23 +1,15 @@
 package com.hcl.elch.freshersuperchargers.trainingworkflow.controller;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.anyLong;
-import static org.mockito.ArgumentMatchers.anyString;
 import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.never;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
 
 import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.Optional;
-
 import org.camunda.bpm.engine.RuntimeService;
 import org.camunda.bpm.engine.delegate.DelegateExecution;
 import org.junit.jupiter.api.BeforeEach;
@@ -26,7 +18,6 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -34,7 +25,6 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.client.RestTemplate;
 
-import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Category;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Modules;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Task;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.User;
@@ -86,26 +76,20 @@ class TaskControllerTest {
 	@Test
 	@Disabled
 	public void testGetDetails() throws CamundaException {
-		// Arrange
-		Task task = Task.builder().id(2).taskId(5).userId(111L).Status("Completed").task("JAVA")
+		
+		Task task = Task.builder().id(2).taskId(4).userId(111).Status("Completed").task("JAVA")
 				.duedate(LocalDate.of(2023, 6, 4)).approver("Sandipan").build();
-
 		HttpHeaders httpHeaders = new HttpHeaders();
-		httpHeaders.setContentType(MediaType.APPLICATION_JSON);
-
+		httpHeaders.add("Content_Type", "application/json");
 		HttpEntity<Task> httpEntity = new HttpEntity<>(task, httpHeaders);
 
-		ResponseEntity<String> responseEntity = new ResponseEntity<>("response_body", HttpStatus.OK);
+		when(tr.getById(1L)).thenReturn(task);
 
-		when(restTemplate.postForEntity(eq("http://localhost:9002/engine-rest/process-definition/key/Decision/start"),
-				eq(httpEntity), eq(String.class))).thenReturn(responseEntity);
-
-		// Act
 		taskController.getDetails(task);
 
-		// Assert
-//		verify(restTemplate, times(1)).postForEntity(eq("http://localhost:9002/engine-rest/process-definition/key/Decision/start"), eq(httpEntity), eq(String.class));
-		verifyNoMoreInteractions(restTemplate);
+		verify(tr).save(task);
+		verify(restTemplate).postForEntity("http://localhost:9002/engine-rest/process-definition/key/Decision/start",
+				httpEntity, String.class);
 	}
 
 	@Test
@@ -143,13 +127,11 @@ class TaskControllerTest {
 	}
 
 	@Test
-//	@Disabled
 	public void testCategory_ModuleNotFound() throws UserTaskException, CamundaException {
 
 		Task task = Task.builder().id(2).taskId(5).userId(111L).Status("InProgress").task("JAVA")
 				.duedate(LocalDate.of(2023, 6, 24)).build();
 
-		Modules module = Modules.builder().moduleId(1).moduleName("JAVA").Exam("1").POC("1").groupId("1").build();
 		when(moduleRepo.getBymoduleName("JAVA")).thenReturn(null);
 		when(tr.getById(2L)).thenReturn(task);
 
@@ -167,37 +149,35 @@ class TaskControllerTest {
 	}
 
 	@Test
-	@Disabled
+	@Disabled("Test case is currently under development")
 	void testExecute() throws Exception {
 		DelegateExecution executionMock = mock(DelegateExecution.class);
-		
+
 		Modules modules = Modules.builder().moduleId(1).moduleName("JAVA").Exam("1").POC("1").groupId("1").build();
 		Task task = Task.builder().id(2).taskId(5).userId(111L).Status("InProgress").task("JAVA")
 				.duedate(LocalDate.of(2023, 6, 24)).build();
-		User user = User.builder().sapId(111L).name("Sandipan").email("sandipan@hcl").build();
-		
-		when(executionMock.getVariable("glob")).thenReturn(task);
-		when(moduleRepo.getBymoduleName("JAVA")).thenReturn(modules);
-		when(userRepo.findBysapId(111L)).thenReturn(user);
-//		when(tr.getById(taskController.glob.getId())).thenReturn(task);
-		when(taskController.camundaTask(task)).thenReturn(user);
-		when(taskController.category(task)).thenReturn(modules);
-		
-	
-		
-		taskController.execute(executionMock);
-	
-		
-		verify(executionMock, times(1)).setVariable("Email", "sandipan@hcl");
-		verify(executionMock, times(1)).setVariable("mainid", task);
-		verify(executionMock, times(1)).setVariable("test","1");
-		verify(executionMock, times(1)).setVariable("poc", "1");
-		verify(executionMock, times(1)).setVariable("groupId", "1");
-		verify(executionMock, times(1)).setVariable("moduleId", 1);
-		verify(executionMock, times(1)).setVariable("task", "JAVA");
-		verify(executionMock, times(1)).setVariable("TaskId", 5);
-		verify(executionMock, times(1)).setVariable("userId", 111L);
-		verify(executionMock, times(1)).setVariable("status", "InProgress");
-		verify(executionMock, times(1)).setVariable("duedate", LocalDate.of(2023, 6, 24));
+		User user = User.builder().sapId(111L).name("Sandipan").email("sandipan@hcl").ProjAssignedStatus(false)
+				.build();
+
+		when(tr.getById(1L)).thenReturn(task);
+        when(userRepo.findBysapId(1234L)).thenReturn(user);
+        when(moduleRepo.getBymoduleName("Test Task")).thenReturn(modules);
+
+        taskController.execute(execution);
+
+        verify(execution).setVariable("ErrorId", "1");
+        verify(execution).setVariable("Email", "sandipan@hcl.com");
+        verify(execution).setVariable("username", "Sandipan");
+        verify(execution).setVariable("ProjectAssignation", false);
+        verify(execution).setVariable("mainid", task);
+        verify(execution).setVariable("test", "1");
+        verify(execution).setVariable("groupId", 1L);
+        verify(execution).setVariable("moduleId", 1L);
+        verify(execution).setVariable("poc", "1");
+        verify(execution).setVariable("task", "JAVA");
+        verify(execution).setVariable("TaskId", "5");
+        verify(execution).setVariable("userId", "111L");
+        verify(execution).setVariable("status", "InProgress");
+        verify(execution).setVariable("duedate", LocalDate.of(2023, 9, 01));
 	}
 }

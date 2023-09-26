@@ -73,7 +73,7 @@ public class SchedulerServiceTest {
 				.id(1)
 				.task("Java")
 				.Status("Completed")
-				.duedate(currDate.plusDays(1))
+				.duedate(currDate.plusDays(2))
 				.taskId(1)
 				.userId(111L)
 				.build();

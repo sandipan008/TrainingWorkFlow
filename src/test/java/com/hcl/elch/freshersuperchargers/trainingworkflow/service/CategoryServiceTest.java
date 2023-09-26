@@ -14,7 +14,6 @@ import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
-import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.context.SpringBootTest;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Category;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Task;
@@ -58,7 +57,6 @@ class CategoryServiceTest {
 
 	@Test
 	void testGetCategory_Exception() {
-		Category category = Category.builder().userId(111L).category("group1").build();
 		Task task = Task.builder().id(2).taskId(4).userId(111).Status("Completed").task("JAVA")
 				.duedate(LocalDate.of(2023, 6, 4)).approver("Sandipan").build();
 		when(categoryRepo.findById(110L)).thenThrow(new RuntimeException());

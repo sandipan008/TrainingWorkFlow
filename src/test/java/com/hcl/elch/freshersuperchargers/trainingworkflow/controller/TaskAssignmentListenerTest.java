@@ -1,10 +1,7 @@
 package com.hcl.elch.freshersuperchargers.trainingworkflow.controller;
 
-import org.assertj.core.util.Arrays;
 import org.camunda.bpm.engine.RuntimeService;
 import org.camunda.bpm.engine.delegate.DelegateTask;
-import org.camunda.bpm.engine.identity.User;
-import org.camunda.bpm.engine.impl.cmd.CreateUserCmd;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
@@ -14,9 +11,6 @@ import org.mockito.MockitoAnnotations;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.service.EmailSenderService;
 
 import static org.mockito.Mockito.*;
-
-import java.util.ArrayList;
-import java.util.List;
 
 class TaskAssignmentListenerTest {
 
@@ -35,7 +29,7 @@ class TaskAssignmentListenerTest {
 	}
 
 	@Test
-	@Disabled
+	@Disabled("Test case is currently under development")
 	void testNotify() {
 		TaskAssignmentListener listener = new TaskAssignmentListener();
 

@@ -8,6 +8,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.*;
 import com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Category;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 global com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Task t1;
 
 global com.hcl.elch.freshersuperchargers.trainingworkflow.entity.Modules m;
@@ -17,13 +21,13 @@ global String last;
 global String compare;
 dialect "mvel"
 
-
+global Logger log;
 
 rule "Checking catagory and tasks values are not null"
    when
      $task : Task(task!="NULL") && $Category : Category(category!="NULL")
    then
-     System.out.println("Task and Category Values are Not Null!!!!!");  
+     log.info("Task and Category Values are Not Null!!!!!");  
 end
 
 
@@ -34,7 +38,7 @@ rule "Checking the next task value is not null and updating to the next task"
        $task :Task();
      then 
         t1.setTask(A);
-        System.out.println("Value of a :-"+A+" task is  :-"+$task.getDuedate()+"  Duration:- "+m.getDuration());
+        log.info("Value of a :-"+A+" task is  :-"+$task.getDuedate()+"  Duration:- "+m.getDuration());
           
 end
 
@@ -44,12 +48,13 @@ rule "updating values"
        $Category:Category();
        $task :Task();
      then
-     		System.out.println($task.getApprover());
+     		log.info($task.getApprover());
      		t1.setTaskId($task.getTaskId()+1);
      		t1.setUserId($task.getUserId());
      		$task.setStatus("Completed");
      		$task.setApprover($task.getApprover());
      		t1.setStatus("InProgress");  
-     		LocalDate datePlus1 = $task.getDuedate().plusDays(m.getDuration()); 
+     		//LocalDate datePlus1 = $task.getDuedate().plusDays(m.getDuration()); 
+     		LocalDate datePlus1 = LocalDate.now().plusDays(m.getDuration()); 
      		t1.setDuedate(datePlus1);
 end

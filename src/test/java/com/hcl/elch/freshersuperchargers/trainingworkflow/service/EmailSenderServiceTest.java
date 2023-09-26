@@ -1,9 +1,9 @@
 package com.hcl.elch.freshersuperchargers.trainingworkflow.service;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
-import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -11,8 +11,6 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 
 import javax.mail.internet.MimeMessage;
 
-import static org.mockito.ArgumentMatchers.any;
-import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.when;
@@ -25,12 +23,13 @@ class EmailSenderServiceTest {
 	@InjectMocks
 	private EmailSenderService emailSenderService;
 
+	@BeforeEach
 	public void setUp() {
 		MockitoAnnotations.openMocks(this);
 	}
 
 	@Test
-	@Disabled
+	@Disabled("Test case is currently under development")
 	void testMailSendingForTask() throws Exception {
 // Setup test data
 		String username = "Sandipan";

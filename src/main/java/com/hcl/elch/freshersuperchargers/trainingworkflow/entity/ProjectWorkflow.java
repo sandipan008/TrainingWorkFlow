@@ -2,8 +2,11 @@ package com.hcl.elch.freshersuperchargers.trainingworkflow.entity;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToOne;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
@@ -20,49 +23,19 @@ import lombok.NoArgsConstructor;
 public class ProjectWorkflow {
 	
 	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="Id")
 	long Id;
 	
 	@Column(name = "Name")
 	private String Name;
 	
-	@OneToOne
-	private User user;
+//	@ManyToOne
+//    @JoinColumn(name = "sapId", referencedColumnName = "sapId")
+//    private User user;
+	private Long sapId;
 	
 	@Column(name="taskId")
 	private long taskId;
-	
-	public long getId() {
-		return Id;
-	}
-
-	public void setId(long id) {
-		Id = id;
-	}
-
-	public String getName() {
-		return Name;
-	}
-
-	public void setName(String name) {
-		Name = name;
-	}
-
-	public User getUserId() {
-		return user;
-	}
-
-	public void setUserId(User userId) {
-		this.user = userId;
-	}
-	
-	public long getTaskId() {
-		return taskId;
-	}
-
-	public void setTaskId(long taskId) {
-		this.taskId = taskId;
-	}
-
 
 }
