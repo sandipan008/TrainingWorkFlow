@@ -75,7 +75,7 @@ public class TaskController implements JavaDelegate {
 			HttpHeaders httpHeaders = new HttpHeaders();
 			httpHeaders.add("Content_Type", "application/json");
 			HttpEntity<Task> httpen = new HttpEntity<>(task, httpHeaders);
-			rt.postForEntity("http://localhost:9002/engine-rest/process-definition/key/Decision/start", httpen, String.class);
+			rt.postForEntity("https://localhost:9002/engine-rest/process-definition/key/Decision/start", httpen, String.class);
 		} catch (Exception e) {
 			Task t1 = tr.getById(glob.getId());
 			t1.setStatus(this.errorStatus);
@@ -143,13 +143,13 @@ public class TaskController implements JavaDelegate {
 				Category category=s.getCategory();
 				long categoryId=category.getUserId();
 				long sapid=s.getSapId();
-				System.out.println(categoryId);
+				
 				List<workflow> workflows=workflowRepo.findBycategory(categoryId);
 				for(workflow i:workflows) {
 					System.out.println("checking");
 					ProjectWorkflow newWorkflow = ProjectWorkflow.builder().Name(i.getName()).sapId(sapid).taskId(i.getTaskId())
 							.build();
-					System.out.println(newWorkflow);
+					
 					projectWorkflowRepo.save(newWorkflow);
 				}
 				log.info(workflows);

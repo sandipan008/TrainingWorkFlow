@@ -57,11 +57,9 @@ public class GithubUrlValidation implements JavaDelegate {
 	 */
 	public void fetchGitBranches(List<String> branches,String url) {
 		try {
-			url="https://github.com/Aswini-Avula/FreshSuperCharger.git";
 			Collection<Ref> refs;
 			refs = Git.lsRemoteRepository().setHeads(true).setRemote(url).call();
 			for (Ref ref : refs) {
-				System.out.println(ref);
 				branches.add(ref.getName().substring(ref.getName().lastIndexOf("/") + 1, ref.getName().length()));
 			}
 			Collections.sort(branches);
